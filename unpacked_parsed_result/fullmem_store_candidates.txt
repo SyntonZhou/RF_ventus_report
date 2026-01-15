@@ -1,0 +1,5 @@
+Store Candidates (likely C output is near the top)
+Sorted by total store bytes.
+Columns: rank  pc  mnemonic  store_bytes  inst_count  addr_count  min_addr  max_addr  contig4_ratio  unique_ratio  top_stride  top_hi8
+
+No store instructions with MEMADDR were found in this log.

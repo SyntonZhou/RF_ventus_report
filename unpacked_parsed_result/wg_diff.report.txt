@@ -1,0 +1,65 @@
+=== Ventus cyclesim log diff report ===
+
+[A] 323232.log
+  instr_lines : 25652
+  recv_lines  : 8 | blocks=1 warps_launched=8
+  kernel_grid : (1, 1, 1)
+  time_window : 350.030us (t0=75ns, t1=350105ns)
+  attributed  : 2.799ms
+
+[B] 32.log
+  instr_lines : 37132
+  recv_lines  : 32 | blocks=4 warps_launched=32
+  kernel_grid : (2, 2, 1)
+  time_window : 457.100us (t0=75ns, t1=457175ns)
+  attributed  : 6.958ms
+
+=== Category time (attributed gap) ===
+  addr    A= 212.480us ( 7.59%) | B= 404.720us ( 5.82%) | Δ=192.240us
+  compute A= 422.760us (15.10%) | B= 464.450us ( 6.67%) | Δ=41.690us
+  control A= 332.390us (11.87%) | B= 398.250us ( 5.72%) | Δ=65.860us
+  mem     A= 809.650us (28.92%) | B=   3.858ms (55.45%) | Δ=3.049ms
+  other   A=   1.022ms (36.51%) | B=   1.832ms (26.33%) | Δ=810.260us
+
+=== Top opcodes by extra time in B (Δtime desc) ===
+  LW           cat=mem     timeA= 379.730us shareA=13.56% timeB=   2.759ms shareB=39.65% Δtime=   2.379ms p95(A/B)=4.096us/8.192us max(A/B)=8.930us/30.760us
+  VSW12_V      cat=mem     timeA= 202.420us shareA= 7.23% timeB= 575.240us shareB= 8.27% Δtime= 372.820us p95(A/B)=8.192us/32.768us max(A/B)=8.950us/53.930us
+  REGEXT       cat=other   timeA=   1.620us shareA= 0.06% timeB= 352.310us shareB= 5.06% Δtime= 350.690us p95(A/B)=64ns/32ns max(A/B)=40ns/13.270us
+  SW           cat=mem     timeA=  21.420us shareA= 0.77% timeB= 284.590us shareB= 4.09% Δtime= 263.170us p95(A/B)=2.048us/4.096us max(A/B)=2.010us/20.790us
+  ADDI         cat=addr    timeA= 148.390us shareA= 5.30% timeB= 340.350us shareB= 4.89% Δtime= 191.960us p95(A/B)=128ns/128ns max(A/B)=8.530us/15.590us
+  CSRRS        cat=other   timeA=  13.910us shareA= 0.50% timeB= 163.540us shareB= 2.35% Δtime= 149.630us p95(A/B)=128ns/128ns max(A/B)=3.280us/16.710us
+  JOIN         cat=other   timeA= 398.320us shareA=14.23% timeB= 508.280us shareB= 7.30% Δtime= 109.960us p95(A/B)=8.192us/16.384us max(A/B)=18.610us/14.790us
+  VAND_VV      cat=other   timeA= 222.180us shareA= 7.94% timeB= 327.200us shareB= 4.70% Δtime= 105.020us p95(A/B)=4.096us/8.192us max(A/B)=14.560us/6.380us
+  VADD_VX      cat=compute timeA=  91.530us shareA= 3.27% timeB= 164.980us shareB= 2.37% Δtime=  73.450us p95(A/B)=128ns/64ns max(A/B)=10.110us/14.400us
+  ENDPRG       cat=other   timeA=       0ns shareA= 0.00% timeB=  46.970us shareB= 0.68% Δtime=  46.970us p95(A/B)=0ns/8.192us max(A/B)=0ns/5.810us
+  VLW_V        cat=mem     timeA=   7.960us shareA= 0.28% timeB=  54.290us shareB= 0.78% Δtime=  46.330us p95(A/B)=2.048us/64ns max(A/B)=2.170us/1.770us
+  JAL          cat=control timeA= 154.180us shareA= 5.51% timeB= 191.110us shareB= 2.75% Δtime=  36.930us p95(A/B)=128ns/128ns max(A/B)=150ns/150ns
+  VMV_V_X      cat=other   timeA=  93.650us shareA= 3.35% timeB= 123.340us shareB= 1.77% Δtime=  29.690us p95(A/B)=128ns/128ns max(A/B)=2.680us/16.960us
+  SETRPC       cat=control timeA= 115.940us shareA= 4.14% timeB= 130.490us shareB= 1.88% Δtime=  14.550us p95(A/B)=128ns/128ns max(A/B)=130ns/110ns
+  JALR         cat=other   timeA=   2.350us shareA= 0.08% timeB=  15.950us shareB= 0.23% Δtime=  13.600us p95(A/B)=128ns/128ns max(A/B)=90ns/110ns
+  VSLL_VI      cat=other   timeA=  18.220us shareA= 0.65% timeB=  30.350us shareB= 0.44% Δtime=  12.130us p95(A/B)=128ns/128ns max(A/B)=1.320us/2.250us
+  VBEQ         cat=control timeA=  57.810us shareA= 2.07% timeB=  68.810us shareB= 0.99% Δtime=  11.000us p95(A/B)=64ns/64ns max(A/B)=70ns/80ns
+  VSW_V        cat=mem     timeA=   1.090us shareA= 0.04% timeB=   9.850us shareB= 0.14% Δtime=   8.760us p95(A/B)=128ns/64ns max(A/B)=80ns/350ns
+  VREMU_VX     cat=other   timeA=   3.760us shareA= 0.13% timeB=  10.180us shareB= 0.15% Δtime=   6.420us p95(A/B)=2.048us/512ns max(A/B)=1.520us/2.040us
+  MUL          cat=addr    timeA=   3.280us shareA= 0.12% timeB=   7.750us shareB= 0.11% Δtime=   4.470us p95(A/B)=128ns/128ns max(A/B)=1.410us/110ns
+
+=== Top opcodes that got faster in B (Δtime asc) ===
+  VLW12_V      cat=mem     timeA= 197.030us shareA= 7.04% timeB= 175.680us shareB= 2.52% Δtime=  -21350ns p95(A/B)=256ns/128ns max(A/B)=160ns/1.700us
+  VMSLT_VX     cat=other   timeA= 254.660us shareA= 9.10% timeB= 236.990us shareB= 3.41% Δtime=  -17670ns p95(A/B)=4.096us/8.192us max(A/B)=17.940us/13.560us
+  VADD_VV      cat=compute timeA= 242.020us shareA= 8.65% timeB= 224.820us shareB= 3.23% Δtime=  -17200ns p95(A/B)=128ns/128ns max(A/B)=9.360us/11.930us
+  VADD12_VI    cat=compute timeA=  26.640us shareA= 0.95% timeB=  19.040us shareB= 0.27% Δtime=   -7600ns p95(A/B)=64ns/64ns max(A/B)=100ns/70ns
+  AUIPC        cat=addr    timeA=  52.790us shareA= 1.89% timeB=  46.130us shareB= 0.66% Δtime=   -6660ns p95(A/B)=64ns/128ns max(A/B)=390ns/1.800us
+  VFMADD_VV    cat=compute timeA=  28.000us shareA= 1.00% timeB=  23.120us shareB= 0.33% Δtime=   -4880ns p95(A/B)=64ns/64ns max(A/B)=90ns/40ns
+  VADD_VI      cat=compute timeA=  28.240us shareA= 1.01% timeB=  25.600us shareB= 0.37% Δtime=   -2640ns p95(A/B)=128ns/64ns max(A/B)=120ns/40ns
+  VBLT         cat=other   timeA=   8.920us shareA= 0.32% timeB=   7.080us shareB= 0.10% Δtime=   -1840ns p95(A/B)=256ns/128ns max(A/B)=150ns/160ns
+  BGE          cat=other   timeA=   2.250us shareA= 0.08% timeB=   1.260us shareB= 0.02% Δtime=    -990ns p95(A/B)=64ns/64ns max(A/B)=70ns/50ns
+
+=== Compute-path sanity check ===
+  VFMADD_VV  count A/B=1024/1024 | time A/B=28.000us/23.120us
+  VADD_VV    count A/B=1320/1410 | time A/B=242.020us/224.820us
+
+=== Quick diagnosis hints (rules of thumb) ===
+  1) If VFMADD/VF* counts drop a lot in B, compute path probably de-vectorized.
+  2) If BARRIER/JOIN/REGEXT time explodes in B, bottleneck is sync/runtime, not math.
+  3) If LW hotspots cluster near kernel entry PCs (args loads), meta/arg block contention is likely.
+  4) If VSW12 hotspots sit just before barrier, your attribution may be charging barrier wait to VSW12.

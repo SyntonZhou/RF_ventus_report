@@ -1,0 +1,6 @@
+Memory Region Summary (by hi8)
+Format: hi8  load_addrs  store_addrs  load_bytes  store_bytes
+
+0x70     268435544             0    1073742176             0
+0x80        540672             0       2162688             0
+0x90      16777592             0      67110368             0

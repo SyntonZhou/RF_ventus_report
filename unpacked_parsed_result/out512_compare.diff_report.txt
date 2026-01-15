@@ -1,0 +1,24 @@
+=== Ventus compare report (A vs B) ===
+
+[A] 512512512.log
+  instr_lines : 90504572
+  recv_lines  : 8
+  jump_lines  : 4744088
+  time_window : 866288660 ns (t0=15 ns, t1=866288675 ns)
+
+[B] 512.log
+  instr_lines : 81788960
+  recv_lines  : 32
+  jump_lines  : 4221504
+  time_window : 378897790 ns (t0=15 ns, t1=378897805 ns)
+
+=== Normalization (if provided MNK) ===
+A stall_ns/out  : 26437.030
+B stall_ns/out  : 23121.248
+Δ stall_ns/out  : -3315.781
+
+=== SM summary ===
+SM0: wall A/B=0/378897780 ns | exec A/B=0/43005248 | stall_sum A/B=0/3031180860 ns
+SM1: wall A/B=866288660/378739630 ns | exec A/B=95248668/43005248 | stall_sum A/B=6930308690/3029915660 ns
+
+Next: check *.diff_sm_opcode.csv for opcode-level stall deltas per SM.

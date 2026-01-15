@@ -1,0 +1,191 @@
+=== Ventus cyclesim SM/warp profile ===
+output prefix : out512_compare.A
+instr_lines   : 90504572
+recv_lines    : 8
+jump_lines    : 4744088
+parse_errors  : 131072
+time window   : 15 ns -> 866288675 ns (wall 866288660 ns)
+
+MNK           : M=512 N=512 K=512
+outputs       : 262144
+flops         : 268435456
+stall_ns/out  : 26437.030
+stall_ns/flop : 2.581741e+01
+exec/out      : 363.345
+
+=== SM summary ===
+SM1: wall=866288660 ns | exec=95248668 | stall_sum=6930308690 ns
+
+=== Top-80 opcodes by stall_sum_gap (global, attributed to prev op) ===
+  1. VAND_VV_0x26d80857 cat=other   stall_sum=   719228340 ns  count=    262144 mean= 2743.64 ns p95~=  8192 ns max=     19820 ns
+  2. VAND_VV_0x27070857 cat=other   stall_sum=   651628160 ns  count=    262144 mean= 2485.76 ns p95~=  4096 ns max=     19370 ns
+  3. VLW12_V_0x0007287b cat=mem     stall_sum=   580394300 ns  count=   8388608 mean=   69.19 ns p95~=   256 ns max=       160 ns
+  4. VSW12_V_0x00e1607b cat=mem     stall_sum=   561208330 ns  count=    262144 mean= 2140.84 ns p95~=  8192 ns max=     21280 ns
+  5. JOIN         cat=other   stall_sum=   499634350 ns  count=    803104 mean=  622.13 ns p95~=  2048 ns max=     19700 ns
+  6. VMSLT_VX_0x6ea4c757 cat=compute stall_sum=   479529250 ns  count=    270336 mean= 1773.83 ns p95~=  4096 ns max=     19750 ns
+  7. SETRPC       cat=other   stall_sum=   433034880 ns  count=   9994848 mean=   43.33 ns p95~=   128 ns max=       140 ns
+  8. ADDI         cat=addr    stall_sum=   353817290 ns  count=   4194576 mean=   84.35 ns p95~=   128 ns max=      7530 ns
+  9. JAL          cat=control stall_sum=   307360150 ns  count=   9488064 mean=   32.39 ns p95~=   128 ns max=       160 ns
+ 10. JUMP         cat=control stall_sum=   258024670 ns  count=   4744088 mean=   54.39 ns p95~=   128 ns max=       160 ns
+ 11. VBEQ         cat=control stall_sum=   230067320 ns  count=   9437248 mean=   24.38 ns p95~=    64 ns max=        90 ns
+ 12. VADD_VX_0x02b047d7 cat=compute stall_sum=   197183060 ns  count=   4194304 mean=   47.01 ns p95~=   128 ns max=       100 ns
+ 13. VADD_VV_0x024685d7 cat=compute stall_sum=   190783520 ns  count=   4194304 mean=   45.49 ns p95~=    64 ns max=        90 ns
+ 14. VLW12_V_0x0005a5fb cat=mem     stall_sum=   187514200 ns  count=   8388608 mean=   22.35 ns p95~=    64 ns max=        70 ns
+ 15. VMV_V_X_0x5e02c7d7 cat=compute stall_sum=   186244540 ns  count=   4194304 mean=   44.40 ns p95~=   128 ns max=       100 ns
+ 16. AUIPC        cat=addr    stall_sum=   180418480 ns  count=   4997472 mean=   36.10 ns p95~=    64 ns max=       390 ns
+ 17. LW           cat=mem     stall_sum=   115859370 ns  count=   1081760 mean=  107.10 ns p95~=   128 ns max=     17730 ns
+ 18. VADD_VI_0x02d236d7 cat=compute stall_sum=   115564750 ns  count=   4194304 mean=   27.55 ns p95~=   128 ns max=       120 ns
+ 19. VFMADD_VV_0xa2f815d7 cat=compute stall_sum=   114814080 ns  count=   4194304 mean=   27.37 ns p95~=    64 ns max=        90 ns
+ 20. VADD12_VI_0x0407070b cat=compute stall_sum=    84827500 ns  count=   4194304 mean=   20.22 ns p95~=    64 ns max=        60 ns
+ 21. VMV_V_X_0x5e03c6d7 cat=compute stall_sum=    71061320 ns  count=    262144 mean=  271.08 ns p95~=  1024 ns max=       690 ns
+ 22. VSLL_VI_0x96d136d7 cat=mem     stall_sum=    45259310 ns  count=    524288 mean=   86.33 ns p95~=   128 ns max=       130 ns
+ 23. VADD_VV_0x02988557 cat=compute stall_sum=    34216990 ns  count=      8192 mean= 4176.88 ns p95~=  8192 ns max=     19440 ns
+ 24. VBLT         cat=control stall_sum=    32752420 ns  count=    541200 mean=   60.52 ns p95~=   256 ns max=       150 ns
+ 25. VMV_V_X_0x5e0047d7 cat=compute stall_sum=    28754940 ns  count=    524288 mean=   54.85 ns p95~=   128 ns max=        80 ns
+ 26. VADD_VV_0x02c88757 cat=compute stall_sum=    24146240 ns  count=    262144 mean=   92.11 ns p95~=   128 ns max=       110 ns
+ 27. VSW12_V_0x00d0e07b cat=mem     stall_sum=    23485750 ns  count=    262144 mean=   89.59 ns p95~=   128 ns max=       130 ns
+ 28. VMADD_VX_0xa6a4e6d7 cat=compute stall_sum=    21309100 ns  count=    262144 mean=   81.29 ns p95~=   128 ns max=       110 ns
+ 29. VADD_VV_0x02c006d7 cat=compute stall_sum=    21074650 ns  count=    262144 mean=   80.39 ns p95~=   128 ns max=       100 ns
+ 30. VADD_VV_0x02e386d7 cat=compute stall_sum=    21073650 ns  count=    262144 mean=   80.39 ns p95~=   128 ns max=       120 ns
+ 31. VLW12_V_0x0006a6fb cat=mem     stall_sum=    20181240 ns  count=    524288 mean=   38.49 ns p95~=    64 ns max=       120 ns
+ 32. VMV_V_X_0x5e0046d7 cat=compute stall_sum=    19686300 ns  count=    262144 mean=   75.10 ns p95~=   128 ns max=     16420 ns
+ 33. VLW12_V_0x0006a77b cat=mem     stall_sum=    19060060 ns  count=    524288 mean=   36.35 ns p95~=    64 ns max=        70 ns
+ 34. VMSLT_VX_0x6e6546d7 cat=compute stall_sum=    17367650 ns  count=    270336 mean=   64.24 ns p95~=   128 ns max=        80 ns
+ 35. LUI          cat=addr    stall_sum=    15700430 ns  count=    540680 mean=   29.04 ns p95~=    64 ns max=      1210 ns
+ 36. VADD12_VI_0x0106060b cat=compute stall_sum=    13428000 ns  count=    262144 mean=   51.22 ns p95~=   128 ns max=       100 ns
+ 37. VADD_VX_0x02d6c6d7 cat=compute stall_sum=    10645320 ns  count=    262144 mean=   40.61 ns p95~=    64 ns max=       360 ns
+ 38. VADD_VX_0x02d646d7 cat=compute stall_sum=    10503230 ns  count=    262144 mean=   40.07 ns p95~=    64 ns max=        60 ns
+ 39. VMV_V_X_0x5e02c6d7 cat=compute stall_sum=     7587610 ns  count=    262144 mean=   28.94 ns p95~=    32 ns max=        30 ns
+ 40. VMV_V_X_0x5e02c757 cat=compute stall_sum=     7037010 ns  count=    262144 mean=   26.84 ns p95~=    32 ns max=        40 ns
+ 41. VMSLT_VX_0x6ed3c857 cat=compute stall_sum=     6382530 ns  count=    262144 mean=   24.35 ns p95~=    32 ns max=        50 ns
+ 42. VMSLT_VX_0x6ee3c857 cat=compute stall_sum=     5957670 ns  count=    262144 mean=   22.73 ns p95~=    64 ns max=        60 ns
+ 43. VMV_V_X_0x5e004657 cat=compute stall_sum=     1299060 ns  count=     16384 mean=   79.29 ns p95~=   128 ns max=       100 ns
+ 44. VBNE         cat=control stall_sum=      901550 ns  count=     16400 mean=   54.97 ns p95~=   128 ns max=       110 ns
+ 45. VADD_VV_0x02a40557 cat=compute stall_sum=      716800 ns  count=      8192 mean=   87.50 ns p95~=   128 ns max=        90 ns
+ 46. VADD_VX_0x02304757 cat=compute stall_sum=      655370 ns  count=    262144 mean=    2.50 ns p95~=    16 ns max=       130 ns
+ 47. VSLL_VI_0x96a13557 cat=mem     stall_sum=      655360 ns  count=      8192 mean=   80.00 ns p95~=   128 ns max=        80 ns
+ 48. VADD12_VI_0x0104848b cat=compute stall_sum=      460800 ns  count=      8192 mean=   56.25 ns p95~=   128 ns max=       100 ns
+ 49. VADD_VX_0x02a5c557 cat=compute stall_sum=      419840 ns  count=      8192 mean=   51.25 ns p95~=    64 ns max=        60 ns
+ 50. BGE          cat=control stall_sum=      339750 ns  count=      8456 mean=   40.18 ns p95~=    64 ns max=        60 ns
+ 51. VMV_V_X_0x5e02c5d7 cat=compute stall_sum=      329330 ns  count=     16384 mean=   20.10 ns p95~=    32 ns max=        60 ns
+ 52. VSW12_V_0x00b5607b cat=mem     stall_sum=      256000 ns  count=      8192 mean=   31.25 ns p95~=    64 ns max=        40 ns
+ 53. VAND_VV_0x26d706d7 cat=other   stall_sum=      184320 ns  count=      8192 mean=   22.50 ns p95~=    64 ns max=        50 ns
+ 54. VMV_V_X_0x5e04c557 cat=compute stall_sum=      102400 ns  count=      8192 mean=   12.50 ns p95~=    32 ns max=        20 ns
+ 55. VADD_VX_0x02234057 cat=compute stall_sum=       28390 ns  count=        16 mean= 1774.38 ns p95~=  8192 ns max=      7710 ns
+ 56. VMV_V_X_0x5e024057 cat=compute stall_sum=       23890 ns  count=       288 mean=   82.95 ns p95~=   128 ns max=      2680 ns
+ 57. CSRRS        cat=other   stall_sum=       22980 ns  count=       144 mean=  159.58 ns p95~=   256 ns max=      7900 ns
+ 58. SW           cat=mem     stall_sum=       22440 ns  count=       104 mean=  215.77 ns p95~=  2048 ns max=      2190 ns
+ 59. VADD12_VI_0x0102828b cat=compute stall_sum=       13440 ns  count=       256 mean=   52.50 ns p95~=   128 ns max=        80 ns
+ 60. VLW_V_0x7fc028ab cat=mem     stall_sum=       11200 ns  count=        40 mean=  280.00 ns p95~=  1024 ns max=      7520 ns
+ 61. VMUL_VX_0x9664e457 cat=compute stall_sum=       10190 ns  count=       256 mean=   39.80 ns p95~=    64 ns max=        50 ns
+ 62. VMUL_VX_0x9663e3d7 cat=compute stall_sum=        9920 ns  count=       256 mean=   38.75 ns p95~=    64 ns max=        50 ns
+ 63. VMV_V_X_0x5e0044d7 cat=compute stall_sum=        6500 ns  count=       256 mean=   25.39 ns p95~=    64 ns max=        60 ns
+ 64. REGEXT       cat=other   stall_sum=        6410 ns  count=       452 mean=   14.18 ns p95~=    64 ns max=        40 ns
+ 65. VMV_V_X_0x5e054357 cat=compute stall_sum=        3520 ns  count=       256 mean=   13.75 ns p95~=    32 ns max=        30 ns
+ 66. VADD_VV_0x02500357 cat=compute stall_sum=        2540 ns  count=       256 mean=    9.92 ns p95~=    16 ns max=        10 ns
+ 67. MUL          cat=addr    stall_sum=        1990 ns  count=        24 mean=   82.92 ns p95~=   128 ns max=       120 ns
+ 68. JALR         cat=control stall_sum=        1580 ns  count=        96 mean=   16.46 ns p95~=    64 ns max=        60 ns
+ 69. VID_V_0x5208a157 cat=other   stall_sum=        1470 ns  count=        16 mean=   91.88 ns p95~=   128 ns max=       110 ns
+ 70. VADD_VX_0x020040d7 cat=compute stall_sum=        1400 ns  count=        16 mean=   87.50 ns p95~=  2048 ns max=      1110 ns
+ 71. VREMU_VX_0x8a0e6057 cat=other   stall_sum=        1170 ns  count=         8 mean=  146.25 ns p95~=   512 ns max=       440 ns
+ 72. VMV_V_X_0x5e02c057 cat=compute stall_sum=        1070 ns  count=        40 mean=   26.75 ns p95~=   128 ns max=        70 ns
+ 73. VSW_V_0xfe002e2b cat=mem     stall_sum=        1040 ns  count=        24 mean=   43.33 ns p95~=    64 ns max=        60 ns
+ 74. VSLL_VI_0x960230d7 cat=mem     stall_sum=         890 ns  count=         8 mean=  111.25 ns p95~=   256 ns max=       170 ns
+ 75. ADD          cat=addr    stall_sum=         800 ns  count=        16 mean=   50.00 ns p95~=   128 ns max=       100 ns
+ 76. RECEIVE      cat=other   stall_sum=         720 ns  count=         8 mean=   90.00 ns p95~=   128 ns max=       120 ns
+ 77. VREMU_VX_0x8a0f6057 cat=other   stall_sum=         720 ns  count=         8 mean=   90.00 ns p95~=   128 ns max=        90 ns
+ 78. VSLL_VI_0x960332d7 cat=mem     stall_sum=         660 ns  count=         8 mean=   82.50 ns p95~=   128 ns max=       100 ns
+ 79. VSLL_VI_0x971132d7 cat=mem     stall_sum=         650 ns  count=         8 mean=   81.25 ns p95~=   128 ns max=        90 ns
+ 80. VADD_VV_0x021880d7 cat=compute stall_sum=         640 ns  count=         8 mean=   80.00 ns p95~=   128 ns max=        80 ns
+
+=== Top-80 PCs by stall_sum_gap (global, attributed to prev pc) ===
+  1. 0x80000244   stall_sum=   719228340 ns  count=    262144 mean= 2743.64 ns max=     19820 ns
+  2. 0x8000028c   stall_sum=   651628160 ns  count=    262144 mean= 2485.76 ns max=     19370 ns
+  3. 0x800002f8   stall_sum=   580394300 ns  count=   8388608 mean=   69.19 ns max=       160 ns
+  4. 0x800002b8   stall_sum=   561208330 ns  count=    262144 mean= 2140.84 ns max=     21280 ns
+  5. 0x80000274   stall_sum=   478771490 ns  count=    262144 mean= 1826.37 ns max=     19750 ns
+  6. 0x800002b4   stall_sum=   448834250 ns  count=    262144 mean= 1712.17 ns max=     19700 ns
+  7. 0x800002ec   stall_sum=   427766000 ns  count=   8388608 mean=   50.99 ns max=       160 ns
+  8. 0x80000314   stall_sum=   368584220 ns  count=   8388608 mean=   43.94 ns max=       140 ns
+  9. 0x80000304   stall_sum=   353772580 ns  count=   4194304 mean=   84.35 ns max=       150 ns
+ 10. 0x8000031c   stall_sum=   254143210 ns  count=   7864320 mean=   32.32 ns max=       160 ns
+ 11. 0x80000318   stall_sum=   209030670 ns  count=   8388608 mean=   24.92 ns max=        80 ns
+ 12. 0x800002f0   stall_sum=   190783520 ns  count=   4194304 mean=   45.49 ns max=        90 ns
+ 13. 0x800002f4   stall_sum=   187514200 ns  count=   8388608 mean=   22.35 ns max=        70 ns
+ 14. 0x80000308   stall_sum=   186244540 ns  count=   4194304 mean=   44.40 ns max=       100 ns
+ 15. 0x80000310   stall_sum=   160152600 ns  count=   4194304 mean=   38.18 ns max=        70 ns
+ 16. 0x80000300   stall_sum=   115564750 ns  count=   4194304 mean=   27.55 ns max=       120 ns
+ 17. 0x800002fc   stall_sum=   114814080 ns  count=   4194304 mean=   27.37 ns max=        90 ns
+ 18. 0x8000030c   stall_sum=    84827500 ns  count=   4194304 mean=   20.22 ns max=        60 ns
+ 19. 0x800002d4   stall_sum=    71061320 ns  count=    262144 mean=  271.08 ns max=       690 ns
+ 20. 0x80000240   stall_sum=    44475440 ns  count=    524288 mean=   84.83 ns max=       100 ns
+ 21. 0x80000288   stall_sum=    42042770 ns  count=    524288 mean=   80.19 ns max=       110 ns
+ 22. 0x800002a4   stall_sum=    35593970 ns  count=    524288 mean=   67.89 ns max=       130 ns
+ 23. 0x800001e4   stall_sum=    34216990 ns  count=      8192 mean= 4176.88 ns max=     19440 ns
+ 24. 0x8000025c   stall_sum=    33760530 ns  count=    524288 mean=   64.39 ns max=       120 ns
+ 25. 0x800002e4   stall_sum=    32112640 ns  count=    524288 mean=   61.25 ns max=       150 ns
+ 26. 0x800001f8   stall_sum=    27696560 ns  count=     16384 mean= 1690.46 ns max=     17730 ns
+ 27. 0x800002cc   stall_sum=    24921150 ns  count=    262144 mean=   95.07 ns max=       120 ns
+ 28. 0x80000260   stall_sum=    24272190 ns  count=    262144 mean=   92.59 ns max=       130 ns
+ 29. 0x80000234   stall_sum=    24146240 ns  count=    262144 mean=   92.11 ns max=       110 ns
+ 30. 0x8000026c   stall_sum=    23994370 ns  count=    262144 mean=   91.53 ns max=       130 ns
+ 31. 0x80000278   stall_sum=    23485750 ns  count=    262144 mean=   89.59 ns max=       130 ns
+ 32. 0x80000298   stall_sum=    21400750 ns  count=    524288 mean=   40.82 ns max=       100 ns
+ 33. 0x80000250   stall_sum=    21325940 ns  count=    524288 mean=   40.68 ns max=        90 ns
+ 34. 0x8000027c   stall_sum=    21074650 ns  count=    262144 mean=   80.39 ns max=       100 ns
+ 35. 0x800002a8   stall_sum=    20987120 ns  count=    262144 mean=   80.06 ns max=       100 ns
+ 36. 0x800002e0   stall_sum=    20316160 ns  count=    524288 mean=   38.75 ns max=        70 ns
+ 37. 0x80000268   stall_sum=    20181240 ns  count=    524288 mean=   38.49 ns max=       120 ns
+ 38. 0x800002c0   stall_sum=    19686300 ns  count=    262144 mean=   75.10 ns max=     16420 ns
+ 39. 0x800002b0   stall_sum=    19060060 ns  count=    524288 mean=   36.35 ns max=        70 ns
+ 40. 0x800002c8   stall_sum=    18361790 ns  count=    524288 mean=   35.02 ns max=       150 ns
+ 41. 0x8000022c   stall_sum=    18232980 ns  count=    270336 mean=   67.45 ns max=       110 ns
+ 42. 0x800002a0   stall_sum=    17591320 ns  count=    524288 mean=   33.55 ns max=       130 ns
+ 43. 0x80000230   stall_sum=    16835170 ns  count=    262144 mean=   64.22 ns max=        80 ns
+ 44. 0x80000258   stall_sum=    16449110 ns  count=    524288 mean=   31.37 ns max=       120 ns
+ 45. 0x800002d0   stall_sum=    13428000 ns  count=    262144 mean=   51.22 ns max=       100 ns
+ 46. 0x800002dc   stall_sum=    12451840 ns  count=    262144 mean=   47.50 ns max=        50 ns
+ 47. 0x80000264   stall_sum=    10645320 ns  count=    262144 mean=   40.61 ns max=       360 ns
+ 48. 0x80000270   stall_sum=    10566900 ns  count=    262144 mean=   40.31 ns max=        80 ns
+ 49. 0x80000254   stall_sum=    10528180 ns  count=    524288 mean=   20.08 ns max=        60 ns
+ 50. 0x8000029c   stall_sum=    10506850 ns  count=    524288 mean=   20.04 ns max=        70 ns
+ 51. 0x800002ac   stall_sum=    10503230 ns  count=    262144 mean=   40.07 ns max=        60 ns
+ 52. 0x8000023c   stall_sum=     9926530 ns  count=    262144 mean=   37.87 ns max=        70 ns
+ 53. 0x80000248   stall_sum=     7587610 ns  count=    262144 mean=   28.94 ns max=        30 ns
+ 54. 0x80000290   stall_sum=     7037010 ns  count=    262144 mean=   26.84 ns max=        40 ns
+ 55. 0x80000280   stall_sum=     6382530 ns  count=    262144 mean=   24.35 ns max=        50 ns
+ 56. 0x80000238   stall_sum=     5957670 ns  count=    262144 mean=   22.73 ns max=        60 ns
+ 57. 0x80000284   stall_sum=     5025490 ns  count=    262144 mean=   19.17 ns max=        60 ns
+ 58. 0x80000294   stall_sum=     4098150 ns  count=    262144 mean=   15.63 ns max=        50 ns
+ 59. 0x8000024c   stall_sum=     3086220 ns  count=    262144 mean=   11.77 ns max=        60 ns
+ 60. 0x800001e0   stall_sum=     1383760 ns  count=     16384 mean=   84.46 ns max=       110 ns
+ 61. 0x80000208   stall_sum=     1071320 ns  count=     16384 mean=   65.39 ns max=       140 ns
+ 62. 0x80000330   stall_sum=      931840 ns  count=      8192 mean=  113.75 ns max=       140 ns
+ 63. 0x80000224   stall_sum=      901120 ns  count=     16384 mean=   55.00 ns max=       110 ns
+ 64. 0x80000214   stall_sum=      757760 ns  count=      8192 mean=   92.50 ns max=       110 ns
+ 65. 0x80000200   stall_sum=      725620 ns  count=      8192 mean=   88.58 ns max=       100 ns
+ 66. 0x80000220   stall_sum=      716800 ns  count=     16384 mean=   43.75 ns max=        80 ns
+ 67. 0x80000320   stall_sum=      716800 ns  count=      8192 mean=   87.50 ns max=        90 ns
+ 68. 0x80000340   stall_sum=      665280 ns  count=     16384 mean=   40.61 ns max=        80 ns
+ 69. 0x800002c4   stall_sum=      655370 ns  count=    262144 mean=    2.50 ns max=       130 ns
+ 70. 0x80000324   stall_sum=      655360 ns  count=      8192 mean=   80.00 ns max=        80 ns
+ 71. 0x80000344   stall_sum=      617920 ns  count=     16384 mean=   37.71 ns max=        90 ns
+ 72. 0x800001f4   stall_sum=      575700 ns  count=     16384 mean=   35.14 ns max=      1210 ns
+ 73. 0x8000020c   stall_sum=      573440 ns  count=      8192 mean=   70.00 ns max=        80 ns
+ 74. 0x80000210   stall_sum=      532480 ns  count=      8192 mean=   65.00 ns max=        80 ns
+ 75. 0x80000334   stall_sum=      460800 ns  count=      8192 mean=   56.25 ns max=       100 ns
+ 76. 0x800001dc   stall_sum=      424740 ns  count=      8448 mean=   50.28 ns max=       190 ns
+ 77. 0x80000328   stall_sum=      419840 ns  count=      8192 mean=   51.25 ns max=        60 ns
+ 78. 0x800001ec   stall_sum=      327720 ns  count=      8192 mean=   40.00 ns max=        60 ns
+ 79. 0x8000033c   stall_sum=      327680 ns  count=      8192 mean=   40.00 ns max=        40 ns
+ 80. 0x800001f0   stall_sum=      327560 ns  count=     16384 mean=   19.99 ns max=        60 ns
+
+=== Top-80 logical warps by stall_sum_gap ===
+  1. SM1 block=0 warp=2  stall_sum=   866288660 ns  exec=  11906076 warp_wall=   866288660 ns stall_mean=   72.76 ns
+  2. SM1 block=0 warp=6  stall_sum=   866288640 ns  exec=  11906077 warp_wall=   866288640 ns stall_mean=   72.76 ns
+  3. SM1 block=0 warp=4  stall_sum=   866288620 ns  exec=  11906097 warp_wall=   866288620 ns stall_mean=   72.76 ns
+  4. SM1 block=0 warp=1  stall_sum=   866288610 ns  exec=  11906077 warp_wall=   866288610 ns stall_mean=   72.76 ns
+  5. SM1 block=0 warp=5  stall_sum=   866288580 ns  exec=  11906095 warp_wall=   866288580 ns stall_mean=   72.76 ns
+  6. SM1 block=0 warp=0  stall_sum=   866288570 ns  exec=  11906073 warp_wall=   866288570 ns stall_mean=   72.76 ns
+  7. SM1 block=0 warp=3  stall_sum=   866288530 ns  exec=  11906089 warp_wall=   866288530 ns stall_mean=   72.76 ns
+  8. SM1 block=0 warp=7  stall_sum=   866288480 ns  exec=  11906084 warp_wall=   866288480 ns stall_mean=   72.76 ns

@@ -1,0 +1,44 @@
+{
+  "parsed": {
+    "instr_lines": 81788960,
+    "recv_lines": 32,
+    "jump_lines": 4221504,
+    "other_lines": 66,
+    "parse_errors": 131072
+  },
+  "time_window": {
+    "t_min_ns": 15,
+    "t_max_ns": 378897805,
+    "wall_ns": 378897790
+  },
+  "normalization": {
+    "M": 512,
+    "N": 512,
+    "K": 512,
+    "output_elements": 262144,
+    "flops": 268435456,
+    "stall_ns_per_out": 23121.248321533203,
+    "stall_ns_per_flop": 22.57934406399727,
+    "exec_per_out": 328.10400390625
+  },
+  "sm_stats": {
+    "0": {
+      "t_min_ns": 25,
+      "t_max_ns": 378897805,
+      "wall_ns": 378897780,
+      "exec_total": 43005248,
+      "stall_sum_gap_ns": 3031180860
+    },
+    "1": {
+      "t_min_ns": 15,
+      "t_max_ns": 378739645,
+      "wall_ns": 378739630,
+      "exec_total": 43005248,
+      "stall_sum_gap_ns": 3029915660
+    }
+  },
+  "totals": {
+    "exec_total": 86010496,
+    "stall_sum_gap_ns": 6061096520
+  }
+}

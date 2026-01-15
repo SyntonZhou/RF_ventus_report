@@ -1,0 +1,44 @@
+== Log File: 512512512.log ==
+== SM Summary ==
+SM 1: instr=90504572, jump_evt=4744088, dur_ns=866288600, instr_per_ns=0.104474
+
+== Top instructions per SM ==
+
+SM 1:
+  VLW12      17825792
+  VADD       14180680
+  SETRPC     9994848
+  JAL        9488064
+  VBEQ       9437248
+  VMV        5809024
+  AUIPC      4997472
+  VADD12     4464896
+  ADDI       4194576
+  VFMADD     4194304
+  LW         1081760
+  VMSLT      1064960
+  JOIN       803104
+  VBLT       541200
+  LUI        540680
+  VSLL       532512
+  VAND       532480
+  VSW12      532480
+  VMADD      262144
+  VBNE       16400
+  BGE        8456
+  VMUL       512
+  REGEXT     452
+  CSRRS      144
+  SW         104
+  JALR       96
+  VLW        40
+  MUL        24
+  VSW        24
+  ADD        16
+  CSRRW      16
+  VID        16
+  VREMU      16
+  VSETVLI    8
+  BEQ        8
+  VDIVU      8
+  ENDPRG     8

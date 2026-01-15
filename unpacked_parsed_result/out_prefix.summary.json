@@ -1,0 +1,48 @@
+{
+  "logfile": "E:\\log\\323232.log",
+  "parsed_instr_lines": 25652,
+  "parsed_receive_lines": 8,
+  "global_first_time_ns": 75,
+  "global_last_time_ns": 350105,
+  "elapsed_ns_between_first_last_instr": 350030,
+  "elapsed_cycles_between_first_last_instr": 35003.0,
+  "total_gap_ns_attributed": 2799410,
+  "unique_opcodes": 38,
+  "sm_instr_count": {
+    "1": 25652
+  },
+  "sm_time_range_ns": {
+    "1": [
+      75,
+      350105
+    ]
+  },
+  "num_warps_seen": 8,
+  "top_categories_by_time": [
+    {
+      "category": "other",
+      "sum_gap_ns": 1035120,
+      "time_share(%)": 36.976362876463256
+    },
+    {
+      "category": "mem",
+      "sum_gap_ns": 809650,
+      "time_share(%)": 28.92216574206708
+    },
+    {
+      "category": "compute",
+      "sum_gap_ns": 417580,
+      "time_share(%)": 14.916714593432188
+    },
+    {
+      "category": "control",
+      "sum_gap_ns": 387870,
+      "time_share(%)": 13.855419534830554
+    },
+    {
+      "category": "addr",
+      "sum_gap_ns": 149190,
+      "time_share(%)": 5.329337253206925
+    }
+  ]
+}

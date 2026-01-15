@@ -1,0 +1,404 @@
+
+object0.riscv:	file format elf32-littleriscv
+
+Disassembly of section .text:
+
+80000000 <_start>:
+80000000: 97 41 00 00  	auipc	gp, 4
+80000004: 93 81 81 80  	addi	gp, gp, -2040
+80000008: 93 0e 00 02  	li	t4, 32
+8000000c: d7 fe 0e 0d  	vsetvli	t4, t4, e32, m1, ta, ma
+80000010: b7 2e 00 00  	lui	t4, 2
+80000014: f3 ae 0e 30  	csrrs	t4, mstatus, t4
+80000018: 93 0e 00 00  	li	t4, 0
+8000001c: 73 23 50 80  	csrr	t1, 2053
+80000020: f3 23 60 80  	csrr	t2, 2054
+80000024: 13 0e 00 40  	li	t3, 1024
+80000028: 33 03 c3 03  	mul	t1, t1, t3
+8000002c: 33 01 73 00  	add	sp, t1, t2
+80000030: 13 02 00 00  	li	tp, 0
+80000034: 73 2f 10 80  	csrr	t5, 2049
+80000038: 13 0e 00 40  	li	t3, 1024
+8000003c: 33 0f cf 03  	mul	t5, t5, t3
+80000040: 33 84 e3 01  	add	s0, t2, t5
+
+80000044 <.Lpcrel_hi1>:
+80000044: 17 35 00 00  	auipc	a0, 3
+80000048: 13 05 85 fc  	addi	a0, a0, -56
+
+8000004c <.Lpcrel_hi2>:
+8000004c: 17 36 00 00  	auipc	a2, 3
+80000050: 13 06 06 fc  	addi	a2, a2, -64
+80000054: 63 08 c5 00  	beq	a0, a2, 0x80000064 <.Ltmp0>
+
+80000058 <.Ltmp1>:
+80000058: 23 20 05 00  	sw	zero, 0(a0)
+8000005c: 13 05 45 00  	addi	a0, a0, 4
+80000060: e3 6c c5 fe  	bltu	a0, a2, 0x80000058 <.Ltmp1>
+
+80000064 <.Ltmp0>:
+80000064: f3 22 30 80  	csrr	t0, 2051
+80000068: 03 a3 02 00  	lw	t1, 0(t0)
+8000006c: 03 a5 42 00  	lw	a0, 4(t0)
+80000070: 83 a3 02 03  	lw	t2, 48(t0)
+80000074: 03 ae 42 03  	lw	t3, 52(t0)
+
+80000078 <.Lpcrel_hi3>:
+80000078: 97 3e 00 00  	auipc	t4, 3
+8000007c: 93 8e 8e f8  	addi	t4, t4, -120
+
+80000080 <.Lpcrel_hi4>:
+80000080: 17 3f 00 00  	auipc	t5, 3
+80000084: 13 0f 4f f8  	addi	t5, t5, -124
+80000088: 23 a0 7e 00  	sw	t2, 0(t4)
+8000008c: 23 20 cf 01  	sw	t3, 0(t5)
+
+80000090 <.Lpcrel_hi5>:
+80000090: 97 0f 00 00  	auipc	t6, 0
+80000094: 93 8f 8f 01  	addi	t6, t6, 24
+80000098: 73 90 5f 30  	csrw	mtvec, t6
+8000009c: e7 00 03 00  	jalr	t1
+800000a0: 0b 40 00 00  	endprg	x0, x0, x0
+800000a4: 6f 00 40 00  	j	0x800000a8 <spike_end>
+
+800000a8 <spike_end>:
+800000a8: 13 03 10 00  	li	t1, 1
+
+800000ac <.Lpcrel_hi6>:
+800000ac: 97 12 00 00  	auipc	t0, 1
+800000b0: 93 82 42 f5  	addi	t0, t0, -172
+800000b4: 23 a0 62 00  	sw	t1, 0(t0)
+
+800000b8 <sgemm_one_wg>:
+800000b8: 13 01 c1 01  	addi	sp, sp, 28
+800000bc: 13 04 04 7f  	addi	s0, s0, 2032
+800000c0: 13 04 04 01  	addi	s0, s0, 16
+800000c4: 13 02 42 00  	addi	tp, tp, 4
+800000c8: 0b 20 10 00  	regext	zero, zero, 1
+800000cc: 57 40 02 5e  	vmv.v.x	v0, tp
+800000d0: 23 22 11 fe  	sw	ra, -28(sp)
+800000d4: 83 22 45 01  	lw	t0, 20(a0)
+800000d8: 23 2e 51 fe  	sw	t0, -4(sp)
+800000dc: 83 22 05 01  	lw	t0, 16(a0)
+800000e0: 23 2c 51 fe  	sw	t0, -8(sp)
+800000e4: 83 22 c5 00  	lw	t0, 12(a0)
+800000e8: 23 2a 51 fe  	sw	t0, -12(sp)
+800000ec: 83 22 85 00  	lw	t0, 8(a0)
+800000f0: 23 28 51 fe  	sw	t0, -16(sp)
+800000f4: 83 22 45 00  	lw	t0, 4(a0)
+800000f8: 23 26 51 fe  	sw	t0, -20(sp)
+800000fc: 83 22 05 00  	lw	t0, 0(a0)
+80000100: 23 24 51 fe  	sw	t0, -24(sp)
+80000104: 57 40 00 5e  	vmv.v.x	v0, zero
+80000108: ef 00 40 24  	jal	0x8000034c <_Z12get_local_idj>
+8000010c: 0b 20 80 00  	regext	zero, zero, 8
+80000110: 2b 2e 00 fe  	vsw.v	v0, -4(v0)
+80000114: 93 02 10 00  	li	t0, 1
+80000118: 57 c0 02 5e  	vmv.v.x	v0, t0
+8000011c: ef 00 00 23  	jal	0x8000034c <_Z12get_local_idj>
+80000120: 0b 20 80 00  	regext	zero, zero, 8
+80000124: ab 28 c0 7f  	vlw.v	v17, -4(v0)
+80000128: 83 26 81 fe  	lw	a3, -24(sp)
+8000012c: 03 26 c1 fe  	lw	a2, -20(sp)
+80000130: 83 25 01 ff  	lw	a1, -16(sp)
+80000134: 03 25 41 ff  	lw	a0, -12(sp)
+80000138: 83 24 81 ff  	lw	s1, -8(sp)
+8000013c: 83 23 c1 ff  	lw	t2, -4(sp)
+80000140: 63 50 a0 06  	blez	a0, 0x800001a0 <.LBB0_4>
+80000144: 6f 00 40 00  	j	0x80000148 <.LBB0_1>
+
+80000148 <.LBB0_1>:
+80000148: d7 30 02 96  	<unknown>
+8000014c: d7 80 18 02  	<unknown>
+80000150: 57 31 11 96  	<unknown>
+80000154: 93 02 04 80  	addi	t0, s0, -2048
+80000158: 93 02 04 00  	mv	t0, s0
+8000015c: d7 c0 22 02  	<unknown>
+80000160: 57 c2 02 5e  	vmv.v.x	v4, t0
+80000164: 93 02 04 c0  	addi	t0, s0, -1024
+80000168: 57 c1 22 02  	<unknown>
+8000016c: d7 c1 02 5e  	vmv.v.x	v3, t0
+80000170: d7 32 11 97  	<unknown>
+80000174: d7 81 32 02  	<unknown>
+80000178: d7 32 03 96  	<unknown>
+8000017c: 57 82 42 02  	<unknown>
+80000180: d7 42 00 5e  	vmv.v.x	v5, zero
+
+80000184 <.LBB0_2>:
+80000184: 63 5e 90 02  	blez	s1, 0x800001c0 <.LBB0_5>
+80000188: 6f 00 40 00  	j	0x8000018c <.LBB0_3>
+
+8000018c <.LBB0_3>:
+8000018c: 57 03 50 02  	<unknown>
+80000190: d7 e3 63 96  	<unknown>
+80000194: 57 e4 64 96  	<unknown>
+80000198: d7 44 00 5e  	vmv.v.x	v9, zero
+8000019c: 6f 00 00 04  	j	0x800001dc <.LBB0_6>
+
+800001a0 <.LBB0_4>:
+800001a0: 5b 20 00 00  	join	zero, zero, 0
+800001a4: 83 20 41 fe  	lw	ra, -28(sp)
+800001a8: 13 01 41 fe  	addi	sp, sp, -28
+800001ac: 13 04 04 80  	addi	s0, s0, -2048
+800001b0: 13 02 c2 ff  	addi	tp, tp, -4
+800001b4: 0b 20 10 00  	regext	zero, zero, 1
+800001b8: 57 40 02 5e  	vmv.v.x	v0, tp
+800001bc: 67 80 00 00  	ret
+
+800001c0 <.LBB0_5>:
+800001c0: 5b 20 00 00  	join	zero, zero, 0
+800001c4: 8b 82 02 01  	<unknown>
+800001c8: 57 43 05 5e  	vmv.v.x	v6, a0
+
+800001cc <.Lpcrel_hi0>:
+800001cc: 17 03 00 00  	auipc	t1, 0
+800001d0: 5b 30 43 fd  	setrpc	zero, t1, -44
+800001d4: db 48 53 fa  	vblt	v5, v6, 0x80000184 <.LBB0_2>
+800001d8: 6f f0 9f fc  	j	0x800001a0 <.LBB0_4>
+
+800001dc <.LBB0_6>:
+800001dc: b7 32 00 80  	lui	t0, 524291
+800001e0: 83 a2 82 00  	lw	t0, 8(t0)
+800001e4: 57 85 98 02  	<unknown>
+800001e8: d7 c5 02 5e  	vmv.v.x	v11, t0
+800001ec: 63 5e 70 00  	blez	t2, 0x80000208 <.LBB0_8>
+800001f0: 6f 00 40 00  	j	0x800001f4 <.LBB0_7>
+
+800001f4 <.LBB0_7>:
+800001f4: b7 32 00 80  	lui	t0, 524291
+800001f8: 83 a2 82 00  	lw	t0, 8(t0)
+800001fc: d7 c5 02 5e  	vmv.v.x	v11, t0
+80000200: 57 46 00 5e  	vmv.v.x	v12, zero
+80000204: 6f 00 80 02  	j	0x8000022c <.LBB0_9>
+
+80000208 <.LBB0_8>:
+80000208: 5b 20 00 00  	join	zero, zero, 0
+8000020c: 57 46 00 5e  	vmv.v.x	v12, zero
+80000210: d7 46 65 6e  	<unknown>
+80000214: 57 c7 a4 6e  	<unknown>
+80000218: d7 06 d7 26  	<unknown>
+
+8000021c <.Lpcrel_hi1>:
+8000021c: 17 03 00 00  	auipc	t1, 0
+80000220: 5b 30 43 11  	setrpc	zero, t1, 276
+80000224: 5b 1e d6 0e  	vbne	v13, v12, 0x80000320 <.LBB0_16>
+80000228: 6f 00 80 10  	j	0x80000330 <.LBB0_17>
+
+8000022c <.LBB0_9>:
+8000022c: d7 47 00 5e  	vmv.v.x	v15, zero
+80000230: d7 46 65 6e  	<unknown>
+80000234: 57 87 c8 02  	<unknown>
+80000238: 57 c8 e3 6e  	<unknown>
+8000023c: b7 32 00 80  	lui	t0, 524291
+80000240: 83 a2 82 00  	lw	t0, 8(t0)
+80000244: 57 08 d8 26  	<unknown>
+80000248: d7 c6 02 5e  	vmv.v.x	v13, t0
+
+8000024c <.Lpcrel_hi2>:
+8000024c: 17 03 00 00  	auipc	t1, 0
+80000250: 5b 30 03 02  	setrpc	zero, t1, 32
+80000254: 5b 8c 07 01  	vbeq	v16, v15, 0x8000026c <.LBB0_11>
+80000258: 6f 00 40 00  	j	0x8000025c <.LBB0_10>
+
+8000025c <.LBB0_10>:
+8000025c: d7 86 e3 02  	<unknown>
+80000260: d7 36 d1 96  	<unknown>
+80000264: d7 c6 d6 02  	<unknown>
+80000268: fb a6 06 00  	vlw12.v	v13, 0(v13)
+
+8000026c <.LBB0_11>:
+8000026c: 5b 20 00 00  	join	zero, zero, 0
+80000270: d7 47 00 5e  	vmv.v.x	v15, zero
+80000274: 57 c7 a4 6e  	<unknown>
+80000278: 7b e0 d0 00  	vsw12.v	v13, 0(v1)
+8000027c: d7 06 c0 02  	<unknown>
+80000280: 57 c8 d3 6e  	<unknown>
+80000284: b7 32 00 80  	lui	t0, 524291
+80000288: 83 a2 82 00  	lw	t0, 8(t0)
+8000028c: 57 08 07 27  	<unknown>
+80000290: 57 c7 02 5e  	vmv.v.x	v14, t0
+
+80000294 <.Lpcrel_hi3>:
+80000294: 17 03 00 00  	auipc	t1, 0
+80000298: 5b 30 03 02  	setrpc	zero, t1, 32
+8000029c: 5b 8c 07 01  	vbeq	v16, v15, 0x800002b4 <.LBB0_13>
+800002a0: 6f 00 40 00  	j	0x800002a4 <.LBB0_12>
+
+800002a4 <.LBB0_12>:
+800002a4: d7 e6 a4 a6  	<unknown>
+800002a8: d7 36 d1 96  	<unknown>
+800002ac: d7 46 d6 02  	<unknown>
+800002b0: 7b a7 06 00  	vlw12.v	v14, 0(v13)
+
+800002b4 <.LBB0_13>:
+800002b4: 5b 20 00 00  	join	zero, zero, 0
+800002b8: 7b 60 e1 00  	vsw12.v	v14, 0(v2)
+800002bc: 0b c0 00 04  	barrier	x0, x0, 1
+800002c0: d7 46 00 5e  	vmv.v.x	v13, zero
+800002c4: 57 47 30 02  	<unknown>
+800002c8: 6f 00 40 02  	j	0x800002ec <.LBB0_15>
+
+800002cc <.LBB0_14>:
+800002cc: 5b 20 00 00  	join	zero, zero, 0
+800002d0: 0b 06 06 01  	<unknown>
+800002d4: d7 c6 03 5e  	vmv.v.x	v13, t2
+800002d8: 0b c0 00 04  	barrier	x0, x0, 1
+
+800002dc <.Lpcrel_hi4>:
+800002dc: 17 03 00 00  	auipc	t1, 0
+800002e0: 5b 30 c3 f2  	setrpc	zero, t1, -212
+800002e4: db c4 c6 f4  	vblt	v12, v13, 0x8000022c <.LBB0_9>
+800002e8: 6f f0 1f f2  	j	0x80000208 <.LBB0_8>
+
+800002ec <.LBB0_15>:
+800002ec: d7 47 b0 02  	<unknown>
+800002f0: d7 85 46 02  	<unknown>
+800002f4: fb a5 05 00  	vlw12.v	v11, 0(v11)
+800002f8: 7b 28 07 00  	vlw12.v	v16, 0(v14)
+800002fc: d7 15 f8 a2  	<unknown>
+80000300: d7 36 d2 02  	<unknown>
+80000304: 93 02 00 04  	li	t0, 64
+80000308: d7 c7 02 5e  	vmv.v.x	v15, t0
+8000030c: 0b 07 07 04  	<unknown>
+
+80000310 <.Lpcrel_hi5>:
+80000310: 17 03 00 00  	auipc	t1, 0
+80000314: 5b 30 c3 fb  	setrpc	zero, t1, -68
+80000318: db 8a d7 fa  	vbeq	v13, v15, 0x800002cc <.LBB0_14>
+8000031c: 6f f0 1f fd  	j	0x800002ec <.LBB0_15>
+
+80000320 <.LBB0_16>:
+80000320: 57 05 a4 02  	<unknown>
+80000324: 57 35 a1 96  	<unknown>
+80000328: 57 c5 a5 02  	<unknown>
+8000032c: 7b 60 b5 00  	vsw12.v	v11, 0(v10)
+
+80000330 <.LBB0_17>:
+80000330: 5b 20 00 00  	join	zero, zero, 0
+80000334: 8b 84 04 01  	<unknown>
+80000338: 57 c5 04 5e  	vmv.v.x	v10, s1
+
+8000033c <.Lpcrel_hi6>:
+8000033c: 17 03 00 00  	auipc	t1, 0
+80000340: 5b 30 43 e8  	setrpc	zero, t1, -380
+80000344: db 4c 95 e8  	vblt	v9, v10, 0x800001dc <.LBB0_6>
+80000348: 6f f0 9f e7  	j	0x800001c0 <.LBB0_5>
+
+8000034c <_Z12get_local_idj>:
+8000034c: 13 01 41 00  	addi	sp, sp, 4
+80000350: 23 2e 11 fe  	sw	ra, -4(sp)
+80000354: d7 40 00 02  	<unknown>
+80000358: 93 02 20 00  	li	t0, 2
+8000035c: 57 c0 02 5e  	vmv.v.x	v0, t0
+
+80000360 <.Lpcrel_hi0>:
+80000360: 17 03 00 00  	auipc	t1, 0
+80000364: 5b 30 43 05  	setrpc	zero, t1, 84
+80000368: 5b 04 10 04  	vbeq	v1, v0, 0x800003b0 <.LBB0_5>
+8000036c: 6f 00 40 00  	j	0x80000370 <.LBB0_1>
+
+80000370 <.LBB0_1>:
+80000370: 93 02 10 00  	li	t0, 1
+80000374: 57 c0 02 5e  	vmv.v.x	v0, t0
+
+80000378 <.Lpcrel_hi1>:
+80000378: 17 03 00 00  	auipc	t1, 0
+8000037c: 5b 30 c3 03  	setrpc	zero, t1, 60
+80000380: 5b 04 10 02  	vbeq	v1, v0, 0x800003a8 <.LBB0_4>
+80000384: 6f 00 40 00  	j	0x80000388 <.LBB0_2>
+
+80000388 <.LBB0_2>:
+80000388: 57 41 00 5e  	vmv.v.x	v2, zero
+8000038c: 57 40 00 5e  	vmv.v.x	v0, zero
+
+80000390 <.Lpcrel_hi2>:
+80000390: 17 03 00 00  	auipc	t1, 0
+80000394: 5b 30 43 02  	setrpc	zero, t1, 36
+80000398: 5b 1e 11 00  	vbne	v1, v2, 0x800003b4 <.LBB0_6>
+8000039c: 6f 00 40 00  	j	0x800003a0 <.LBB0_3>
+
+800003a0 <.LBB0_3>:
+800003a0: ef 00 40 02  	jal	0x800003c4 <__builtin_riscv_workitem_id_x>
+800003a4: 6f 00 00 01  	j	0x800003b4 <.LBB0_6>
+
+800003a8 <.LBB0_4>:
+800003a8: ef 00 c0 04  	jal	0x800003f4 <__builtin_riscv_workitem_id_y>
+800003ac: 6f 00 80 00  	j	0x800003b4 <.LBB0_6>
+
+800003b0 <.LBB0_5>:
+800003b0: ef 00 c0 09  	jal	0x8000044c <__builtin_riscv_workitem_id_z>
+
+800003b4 <.LBB0_6>:
+800003b4: 5b 20 00 00  	join	zero, zero, 0
+800003b8: 83 20 c1 ff  	lw	ra, -4(sp)
+800003bc: 13 01 c1 ff  	addi	sp, sp, -4
+800003c0: 67 80 00 00  	ret
+
+800003c4 <__builtin_riscv_workitem_id_x>:
+800003c4: 13 01 41 00  	addi	sp, sp, 4
+800003c8: 23 2e 11 fe  	sw	ra, -4(sp)
+800003cc: 73 25 30 80  	csrr	a0, 2051
+800003d0: 83 22 85 00  	lw	t0, 8(a0)
+800003d4: 73 23 00 80  	csrr	t1, 2048
+800003d8: 57 a1 08 52  	vid.v	v2
+800003dc: 57 40 23 02  	<unknown>
+800003e0: 03 2e 85 01  	lw	t3, 24(a0)
+800003e4: 57 60 0e 8a  	<unknown>
+800003e8: 83 20 c1 ff  	lw	ra, -4(sp)
+800003ec: 13 01 c1 ff  	addi	sp, sp, -4
+800003f0: 67 80 00 00  	ret
+
+800003f4 <__builtin_riscv_workitem_id_y>:
+800003f4: 13 01 41 00  	addi	sp, sp, 4
+800003f8: 23 2e 11 fe  	sw	ra, -4(sp)
+800003fc: 73 25 30 80  	csrr	a0, 2051
+80000400: 83 22 85 00  	lw	t0, 8(a0)
+80000404: 73 23 00 80  	csrr	t1, 2048
+80000408: 57 a1 08 52  	vid.v	v2
+8000040c: 57 40 23 02  	<unknown>
+80000410: 03 2e 85 01  	lw	t3, 24(a0)
+80000414: 83 2e c5 01  	lw	t4, 28(a0)
+80000418: 33 8f ce 03  	mul	t5, t4, t3
+8000041c: 57 60 0f 8a  	<unknown>
+80000420: 57 60 0e 82  	<unknown>
+80000424: d7 c0 0e 5e  	vmv.v.x	v1, t4
+
+80000428 <.hi2>:
+80000428: 17 03 00 00  	auipc	t1, 0
+8000042c: 5b 30 43 01  	setrpc	zero, t1, 20
+80000430: 5b c6 00 00  	vblt	v0, v1, 0x8000043c <.end2>
+80000434: 13 0f f0 ff  	li	t5, -1
+80000438: 57 40 1f 02  	<unknown>
+
+8000043c <.end2>:
+8000043c: 5b 20 00 00  	join	zero, zero, 0
+80000440: 83 20 c1 ff  	lw	ra, -4(sp)
+80000444: 13 01 c1 ff  	addi	sp, sp, -4
+80000448: 67 80 00 00  	ret
+
+8000044c <__builtin_riscv_workitem_id_z>:
+8000044c: 13 01 41 00  	addi	sp, sp, 4
+80000450: 23 2e 11 fe  	sw	ra, -4(sp)
+80000454: 73 25 30 80  	csrr	a0, 2051
+80000458: 73 23 00 80  	csrr	t1, 2048
+8000045c: 57 a1 08 52  	vid.v	v2
+80000460: 57 40 23 02  	<unknown>
+80000464: 03 2e 85 01  	lw	t3, 24(a0)
+80000468: 83 2e c5 01  	lw	t4, 28(a0)
+8000046c: 03 2f 05 02  	lw	t5, 32(a0)
+80000470: b3 8e ce 03  	mul	t4, t4, t3
+80000474: 57 e0 0e 82  	<unknown>
+80000478: d7 40 0f 5e  	vmv.v.x	v1, t5
+
+8000047c <.hi3>:
+8000047c: 17 03 00 00  	auipc	t1, 0
+80000480: 5b 30 43 01  	setrpc	zero, t1, 20
+80000484: 5b c6 00 00  	vblt	v0, v1, 0x80000490 <.end3>
+80000488: 13 0f f0 ff  	li	t5, -1
+8000048c: 57 40 1f 02  	<unknown>
+
+80000490 <.end3>:
+80000490: 5b 20 00 00  	join	zero, zero, 0
+80000494: 83 20 c1 ff  	lw	ra, -4(sp)
+80000498: 13 01 c1 ff  	addi	sp, sp, -4
+8000049c: 67 80 00 00  	ret

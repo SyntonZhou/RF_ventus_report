@@ -1,0 +1,82 @@
+== Log File: 512.log ==
+== SM Summary ==
+SM 0: instr=40894480, jump_evt=2110752, dur_ns=378897720, instr_per_ns=0.107930
+SM 1: instr=40894480, jump_evt=2110752, dur_ns=378739570, instr_per_ns=0.107975
+
+== Top instructions per SM ==
+
+SM 0:
+  VLW12      8912896
+  VADD       6959792
+  SETRPC     4466048
+  JAL        4221152
+  VBEQ       4194560
+  VMV        2376624
+  AUIPC      2233120
+  VADD12     2232576
+  ADDI       2097840
+  VFMADD     2097152
+  VBLT       270880
+  VSLL       266336
+  VSW12      266240
+  JOIN       135520
+  VMADD      131328
+  LW         17280
+  LUI        8208
+  BGE        4096
+  VBGE       544
+  REGEXT     368
+  CSRRS      352
+  JALR       320
+  VLW        256
+  VMUL       256
+  SW         240
+  VSW        192
+  VBNE       64
+  MUL        48
+  ADD        32
+  CSRRW      32
+  VID        32
+  VREMU      32
+  VSETVLI    16
+  BEQ        16
+  VDIVU      16
+  ENDPRG     16
+
+SM 1:
+  VLW12      8912896
+  VADD       6959792
+  SETRPC     4466048
+  JAL        4221152
+  VBEQ       4194560
+  VMV        2376624
+  AUIPC      2233120
+  VADD12     2232576
+  ADDI       2097840
+  VFMADD     2097152
+  VBLT       270880
+  VSLL       266336
+  VSW12      266240
+  JOIN       135520
+  VMADD      131328
+  LW         17280
+  LUI        8208
+  BGE        4096
+  VBGE       544
+  REGEXT     368
+  CSRRS      352
+  JALR       320
+  VLW        256
+  VMUL       256
+  SW         240
+  VSW        192
+  VBNE       64
+  MUL        48
+  ADD        32
+  CSRRW      32
+  VID        32
+  VREMU      32
+  VSETVLI    16
+  BEQ        16
+  VDIVU      16
+  ENDPRG     16
