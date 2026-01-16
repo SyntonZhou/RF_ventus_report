@@ -1,0 +1,17 @@
+ns_per_cycle = 10
+total_loop_dt_ns = 3198283900
+
+Top opcodes by total time:
+  VLW12_V      total_ns=707514840    share=0.2212 count=8388608    mean_ns=84.342 max_ns=160
+  ADDI         total_ns=353772580    share=0.1106 count=4194304    mean_ns=84.346 max_ns=150
+  VBEQ         total_ns=350663370    share=0.1096 count=5902186    mean_ns=59.412 max_ns=90
+  SETRPC       total_ns=262250770    share=0.0820 count=3932160    mean_ns=66.694 max_ns=140
+  VADD_VV      total_ns=251177180    share=0.0785 count=4194304    mean_ns=59.885 max_ns=110
+  JUMP_TO      total_ns=230582940    share=0.0721 count=4066477    mean_ns=56.703 max_ns=160
+  AUIPC        total_ns=227536600    share=0.0711 count=4194304    mean_ns=54.249 max_ns=140
+  JAL          total_ns=214821610    share=0.0672 count=5894294    mean_ns=36.446 max_ns=160
+  VADD_VX      total_ns=197183060    share=0.0617 count=4194304    mean_ns=47.012 max_ns=100
+  VMV_V_X      total_ns=186244540    share=0.0582 count=4194304    mean_ns=44.404 max_ns=100
+  VADD_VI      total_ns=115564750    share=0.0361 count=4194304    mean_ns=27.553 max_ns=120
+  VFMADD_VV    total_ns=114814080    share=0.0359 count=4194304    mean_ns=27.374 max_ns=90
+  VADD12_VI    total_ns=103196880    share=0.0323 count=4194304    mean_ns=24.604 max_ns=90

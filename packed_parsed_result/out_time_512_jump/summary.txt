@@ -1,0 +1,37 @@
+[Parsed events] 95248660
+[Ignored] negative_deltas=0, zero_deltas=10297067
+[ns_per_cycle] 10 ns
+[Total warp-time] 6930307970 ns  (693030797.00 cycles)
+
+Top 20 opcodes by total warp-time:
+OPCODE                TOTAL(ns)    SHARE    MEAN(cyc)     MED(cyc)     MAX(cyc)
+VAND_VV              1371040820   19.78%       257.48       228.00      1982.00
+VLW12_V               807149800   11.65%         4.53         2.00        16.00
+VSW12_V               584950080    8.44%       109.85        10.00      2128.00
+VMSLT_VX              509237100    7.35%        47.82         4.00      1975.00
+JOIN                  499634350    7.21%        62.21        10.00      1970.00
+SETRPC                433034880    6.25%         4.33         4.00        14.00
+ADDI                  353817290    5.11%         8.44         9.00       753.00
+VMV_V_X               322139090    4.65%         5.55         4.00      1642.00
+JAL                   307360150    4.44%         3.24         1.00        16.00
+VADD_VV               292015670    4.21%         5.84         5.00      1944.00
+JUMP_TO               258024670    3.72%         5.44         0.00        16.00
+VBEQ                  230067320    3.32%         2.44         0.00         9.00
+VADD_VX               219437230    3.17%         4.40         4.00       771.00
+AUIPC                 180418480    2.60%         3.61         4.00        39.00
+LW                    115859370    1.67%        10.71         8.00      1773.00
+VADD_VI               115564750    1.67%         2.76         2.00        12.00
+VFMADD_VV             114814080    1.66%         2.74         2.00         9.00
+VADD12_VI              98729740    1.42%         2.21         2.00        10.00
+VSLL_VI                45917100    0.66%         8.62         8.00        17.00
+VBLT                   32752420    0.47%         6.05         4.00        15.00
+
+Per-warp span (wall time on that warp timeline):
+SM1 warp0: span=86628836.00 cycles
+SM1 warp1: span=86628845.00 cycles
+SM1 warp2: span=86628855.00 cycles
+SM1 warp3: span=86628860.00 cycles
+SM1 warp4: span=86628843.00 cycles
+SM1 warp5: span=86628852.00 cycles
+SM1 warp6: span=86628850.00 cycles
+SM1 warp7: span=86628856.00 cycles

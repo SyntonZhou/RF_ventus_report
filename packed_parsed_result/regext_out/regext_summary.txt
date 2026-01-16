@@ -1,0 +1,16 @@
+TOTAL REGEXT used   = 296
+TOTAL REGEXT unused = 156
+
+Top used (prev_op -> next_op):
+  VADD_VV -> VMV_V_X: 256
+  JALR -> VMV_V_X: 8
+  JALR -> VSW_V: 8
+  VSW_V -> VLW_V: 8
+  JALR -> VLW_V: 8
+  JOIN -> VMV_V_X: 8
+
+Top unused (prev_op -> next_op):
+  BGE -> JAL: 70
+  JAL -> JAL: 62
+  LW -> SW: 16
+  CSRRW -> JALR: 8

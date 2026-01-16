@@ -1,0 +1,7 @@
+prev_op,next_op,count
+VADD_VV,VMV_V_X,256
+JALR,VMV_V_X,8
+JALR,VSW_V,8
+VSW_V,VLW_V,8
+JALR,VLW_V,8
+JOIN,VMV_V_X,8

@@ -1,0 +1,5 @@
+prev_op,next_op,count
+BGE,JAL,70
+JAL,JAL,62
+LW,SW,16
+CSRRW,JALR,8

@@ -1,0 +1,427 @@
+{
+  "log": "E:\\log\\512512512.log",
+  "total_size_bytes": 26151350417,
+  "dynamic_inst_lines": 90504572,
+  "warps": 8,
+  "topk": 50,
+  "top_global_pcs": [
+    {
+      "pc": "0x800002f4",
+      "count": 8388608,
+      "inst_hint": "VLW12_V"
+    },
+    {
+      "pc": "0x800002f8",
+      "count": 8388608,
+      "inst_hint": "VLW12_V"
+    },
+    {
+      "pc": "0x80000314",
+      "count": 8388608,
+      "inst_hint": "SETRPC"
+    },
+    {
+      "pc": "0x80000318",
+      "count": 8388608,
+      "inst_hint": "VBEQ"
+    },
+    {
+      "pc": "0x8000031c",
+      "count": 7864320,
+      "inst_hint": "JAL"
+    },
+    {
+      "pc": "0x800002ec",
+      "count": 4194304,
+      "inst_hint": "VADD_VX"
+    },
+    {
+      "pc": "0x800002f0",
+      "count": 4194304,
+      "inst_hint": "VADD_VV"
+    },
+    {
+      "pc": "0x800002fc",
+      "count": 4194304,
+      "inst_hint": "VFMADD_VV"
+    },
+    {
+      "pc": "0x80000300",
+      "count": 4194304,
+      "inst_hint": "VADD_VI"
+    },
+    {
+      "pc": "0x80000304",
+      "count": 4194304,
+      "inst_hint": "ADDI"
+    },
+    {
+      "pc": "0x80000308",
+      "count": 4194304,
+      "inst_hint": "VMV_V_X"
+    },
+    {
+      "pc": "0x80000310",
+      "count": 4194304,
+      "inst_hint": "AUIPC"
+    },
+    {
+      "pc": "0x8000030c",
+      "count": 4194304,
+      "inst_hint": "VADD12_VI"
+    },
+    {
+      "pc": "0x80000240",
+      "count": 524288,
+      "inst_hint": "LW"
+    },
+    {
+      "pc": "0x80000250",
+      "count": 524288,
+      "inst_hint": "SETRPC"
+    },
+    {
+      "pc": "0x80000254",
+      "count": 524288,
+      "inst_hint": "VBEQ"
+    },
+    {
+      "pc": "0x80000258",
+      "count": 524288,
+      "inst_hint": "JAL"
+    },
+    {
+      "pc": "0x80000268",
+      "count": 524288,
+      "inst_hint": "VLW12_V"
+    },
+    {
+      "pc": "0x80000288",
+      "count": 524288,
+      "inst_hint": "LW"
+    },
+    {
+      "pc": "0x80000298",
+      "count": 524288,
+      "inst_hint": "SETRPC"
+    },
+    {
+      "pc": "0x8000029c",
+      "count": 524288,
+      "inst_hint": "VBEQ"
+    },
+    {
+      "pc": "0x800002a0",
+      "count": 524288,
+      "inst_hint": "JAL"
+    },
+    {
+      "pc": "0x800002b0",
+      "count": 524288,
+      "inst_hint": "VLW12_V"
+    },
+    {
+      "pc": "0x800002c8",
+      "count": 524288,
+      "inst_hint": "JAL"
+    },
+    {
+      "pc": "0x800002e0",
+      "count": 524288,
+      "inst_hint": "SETRPC"
+    },
+    {
+      "pc": "0x800002e4",
+      "count": 524288,
+      "inst_hint": "VBLT"
+    },
+    {
+      "pc": "0x8000022c",
+      "count": 262144,
+      "inst_hint": "VMV_V_X"
+    },
+    {
+      "pc": "0x80000230",
+      "count": 262144,
+      "inst_hint": "VMSLT_VX"
+    },
+    {
+      "pc": "0x80000234",
+      "count": 262144,
+      "inst_hint": "VADD_VV"
+    },
+    {
+      "pc": "0x80000238",
+      "count": 262144,
+      "inst_hint": "VMSLT_VX"
+    },
+    {
+      "pc": "0x8000023c",
+      "count": 262144,
+      "inst_hint": "LUI"
+    },
+    {
+      "pc": "0x80000244",
+      "count": 262144,
+      "inst_hint": "VAND_VV"
+    },
+    {
+      "pc": "0x80000248",
+      "count": 262144,
+      "inst_hint": "VMV_V_X"
+    },
+    {
+      "pc": "0x8000024c",
+      "count": 262144,
+      "inst_hint": "AUIPC"
+    },
+    {
+      "pc": "0x8000025c",
+      "count": 262144,
+      "inst_hint": "VADD_VV"
+    },
+    {
+      "pc": "0x80000260",
+      "count": 262144,
+      "inst_hint": "VSLL_VI"
+    },
+    {
+      "pc": "0x80000264",
+      "count": 262144,
+      "inst_hint": "VADD_VX"
+    },
+    {
+      "pc": "0x8000026c",
+      "count": 262144,
+      "inst_hint": "JOIN"
+    },
+    {
+      "pc": "0x80000270",
+      "count": 262144,
+      "inst_hint": "VMV_V_X"
+    },
+    {
+      "pc": "0x80000274",
+      "count": 262144,
+      "inst_hint": "VMSLT_VX"
+    },
+    {
+      "pc": "0x80000278",
+      "count": 262144,
+      "inst_hint": "VSW12_V"
+    },
+    {
+      "pc": "0x8000027c",
+      "count": 262144,
+      "inst_hint": "VADD_VV"
+    },
+    {
+      "pc": "0x80000284",
+      "count": 262144,
+      "inst_hint": "LUI"
+    },
+    {
+      "pc": "0x80000280",
+      "count": 262144,
+      "inst_hint": "VMSLT_VX"
+    },
+    {
+      "pc": "0x8000028c",
+      "count": 262144,
+      "inst_hint": "VAND_VV"
+    },
+    {
+      "pc": "0x80000290",
+      "count": 262144,
+      "inst_hint": "VMV_V_X"
+    },
+    {
+      "pc": "0x80000294",
+      "count": 262144,
+      "inst_hint": "AUIPC"
+    },
+    {
+      "pc": "0x800002a4",
+      "count": 262144,
+      "inst_hint": "VMADD_VX"
+    },
+    {
+      "pc": "0x800002a8",
+      "count": 262144,
+      "inst_hint": "VSLL_VI"
+    },
+    {
+      "pc": "0x800002ac",
+      "count": 262144,
+      "inst_hint": "VADD_VX"
+    }
+  ],
+  "top_global_insts": [
+    {
+      "inst": "VLW12_V",
+      "count": 17825792
+    },
+    {
+      "inst": "SETRPC",
+      "count": 9994848
+    },
+    {
+      "inst": "JAL",
+      "count": 9488064
+    },
+    {
+      "inst": "VBEQ",
+      "count": 9437248
+    },
+    {
+      "inst": "VMV_V_X",
+      "count": 5809024
+    },
+    {
+      "inst": "AUIPC",
+      "count": 4997472
+    },
+    {
+      "inst": "VADD_VV",
+      "count": 4997400
+    },
+    {
+      "inst": "VADD_VX",
+      "count": 4988976
+    },
+    {
+      "inst": "VADD12_VI",
+      "count": 4464896
+    },
+    {
+      "inst": "ADDI",
+      "count": 4194576
+    },
+    {
+      "inst": "VFMADD_VV",
+      "count": 4194304
+    },
+    {
+      "inst": "VADD_VI",
+      "count": 4194304
+    },
+    {
+      "inst": "LW",
+      "count": 1081760
+    },
+    {
+      "inst": "VMSLT_VX",
+      "count": 1064960
+    },
+    {
+      "inst": "JOIN",
+      "count": 803104
+    },
+    {
+      "inst": "VBLT",
+      "count": 541200
+    },
+    {
+      "inst": "LUI",
+      "count": 540680
+    },
+    {
+      "inst": "VSLL_VI",
+      "count": 532512
+    },
+    {
+      "inst": "VAND_VV",
+      "count": 532480
+    },
+    {
+      "inst": "VSW12_V",
+      "count": 532480
+    },
+    {
+      "inst": "VMADD_VX",
+      "count": 262144
+    },
+    {
+      "inst": "VBNE",
+      "count": 16400
+    },
+    {
+      "inst": "BGE",
+      "count": 8456
+    },
+    {
+      "inst": "VMUL_VX",
+      "count": 512
+    },
+    {
+      "inst": "REGEXT",
+      "count": 452
+    },
+    {
+      "inst": "CSRRS",
+      "count": 144
+    },
+    {
+      "inst": "SW",
+      "count": 104
+    },
+    {
+      "inst": "JALR",
+      "count": 96
+    },
+    {
+      "inst": "VLW_V",
+      "count": 40
+    },
+    {
+      "inst": "MUL",
+      "count": 24
+    },
+    {
+      "inst": "VSW_V",
+      "count": 24
+    },
+    {
+      "inst": "ADD",
+      "count": 16
+    },
+    {
+      "inst": "CSRRW",
+      "count": 16
+    },
+    {
+      "inst": "VID_V",
+      "count": 16
+    },
+    {
+      "inst": "VREMU_VX",
+      "count": 16
+    },
+    {
+      "inst": "VSETVLI",
+      "count": 8
+    },
+    {
+      "inst": "BEQ",
+      "count": 8
+    },
+    {
+      "inst": "VDIVU_VX",
+      "count": 8
+    },
+    {
+      "inst": "ENDPRG",
+      "count": 8
+    }
+  ],
+  "warp_totals": {
+    "0": 11313072,
+    "1": 11313061,
+    "2": 11313065,
+    "3": 11313064,
+    "4": 11313077,
+    "5": 11313085,
+    "6": 11313083,
+    "7": 11313065
+  }
+}

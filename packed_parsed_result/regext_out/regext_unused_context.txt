@@ -1,0 +1,2340 @@
+==========================================================================================
+[UNUSED] EVENT#1  SM=1 warp=3  REGEXT_pc=0x800000c8 @ 10185ns
+  prev: pc=0x80000098 op=CSRRW @ 10185ns
+  regext: SM 1 warp 3 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @10185ns,1 [trace decode.cpp:72]
+  next: pc=0x8000009c op=JALR @ 10225ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000098             CSRRW_0x305f9073 WB x[000]=0x00000000 @10185ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @10185ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x8000009c              JALR_0x000300e7 JUMP=true, jumpTO 0x800000b8 @10225ns,1 [trace exec_salu.cpp:121]
+
+==========================================================================================
+[UNUSED] EVENT#2  SM=1 warp=2  REGEXT_pc=0x800000c8 @ 10235ns
+  prev: pc=0x80000098 op=CSRRW @ 10235ns
+  regext: SM 1 warp 2 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @10235ns,1 [trace decode.cpp:72]
+  next: pc=0x8000009c op=JALR @ 10275ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000098             CSRRW_0x305f9073 WB x[000]=0x00000000 @10235ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @10235ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x8000009c              JALR_0x000300e7 JUMP=true, jumpTO 0x800000b8 @10275ns,1 [trace exec_salu.cpp:121]
+
+==========================================================================================
+[UNUSED] EVENT#5  SM=1 warp=7  REGEXT_pc=0x800000c8 @ 13785ns
+  prev: pc=0x80000098 op=CSRRW @ 13785ns
+  regext: SM 1 warp 7 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @13785ns,1 [trace decode.cpp:72]
+  next: pc=0x8000009c op=JALR @ 13825ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000098             CSRRW_0x305f9073 WB x[000]=0x00000000 @13785ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @13785ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x8000009c              JALR_0x000300e7 JUMP=true, jumpTO 0x800000b8 @13825ns,1 [trace exec_salu.cpp:121]
+
+==========================================================================================
+[UNUSED] EVENT#7  SM=1 warp=4  REGEXT_pc=0x800000c8 @ 13945ns
+  prev: pc=0x80000098 op=CSRRW @ 13945ns
+  regext: SM 1 warp 4 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @13945ns,1 [trace decode.cpp:72]
+  next: pc=0x8000009c op=JALR @ 13985ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000098             CSRRW_0x305f9073 WB x[000]=0x00000000 @13945ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @13945ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x8000009c              JALR_0x000300e7 JUMP=true, jumpTO 0x800000b8 @13985ns,1 [trace exec_salu.cpp:121]
+
+==========================================================================================
+[UNUSED] EVENT#9  SM=1 warp=5  REGEXT_pc=0x800000c8 @ 15205ns
+  prev: pc=0x80000098 op=CSRRW @ 15205ns
+  regext: SM 1 warp 5 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @15205ns,1 [trace decode.cpp:72]
+  next: pc=0x8000009c op=JALR @ 15245ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000098             CSRRW_0x305f9073 WB x[000]=0x00000000 @15205ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @15205ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x8000009c              JALR_0x000300e7 JUMP=true, jumpTO 0x800000b8 @15245ns,1 [trace exec_salu.cpp:121]
+
+==========================================================================================
+[UNUSED] EVENT#11  SM=1 warp=6  REGEXT_pc=0x800000c8 @ 15625ns
+  prev: pc=0x80000098 op=CSRRW @ 15625ns
+  regext: SM 1 warp 6 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @15625ns,1 [trace decode.cpp:72]
+  next: pc=0x8000009c op=JALR @ 15665ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000098             CSRRW_0x305f9073 WB x[000]=0x00000000 @15625ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @15625ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x8000009c              JALR_0x000300e7 JUMP=true, jumpTO 0x800000b8 @15665ns,1 [trace exec_salu.cpp:121]
+
+==========================================================================================
+[UNUSED] EVENT#13  SM=1 warp=1  REGEXT_pc=0x800000c8 @ 15805ns
+  prev: pc=0x80000098 op=CSRRW @ 15805ns
+  regext: SM 1 warp 1 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @15805ns,1 [trace decode.cpp:72]
+  next: pc=0x8000009c op=JALR @ 15845ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x80000098             CSRRW_0x305f9073 WB x[000]=0x00000000 @15805ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @15805ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x8000009c              JALR_0x000300e7 JUMP=true, jumpTO 0x800000b8 @15845ns,1 [trace exec_salu.cpp:121]
+
+==========================================================================================
+[UNUSED] EVENT#15  SM=1 warp=0  REGEXT_pc=0x800000c8 @ 15995ns
+  prev: pc=0x80000098 op=CSRRW @ 15995ns
+  regext: SM 1 warp 0 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @15995ns,1 [trace decode.cpp:72]
+  next: pc=0x8000009c op=JALR @ 16035ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000098             CSRRW_0x305f9073 WB x[000]=0x00000000 @15995ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800000c8            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @15995ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x8000009c              JALR_0x000300e7 JUMP=true, jumpTO 0x800000b8 @16035ns,1 [trace exec_salu.cpp:121]
+
+==========================================================================================
+[UNUSED] EVENT#17  SM=1 warp=2  REGEXT_pc=0x8000010c @ 16585ns
+  prev: pc=0x800000dc op=LW @ 16575ns
+  regext: SM 1 warp 2 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @16585ns,1 [trace decode.cpp:72]
+  next: pc=0x800000e0 op=SW @ 16615ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x800000dc                LW_0x01052283 WB x[005]=0x00000200 @16575ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @16585ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x800000e0                SW_0xfe512c23 mask=FFFFFFFF ADDR 70000414, DATA 200 @16615ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#18  SM=1 warp=3  REGEXT_pc=0x8000010c @ 16765ns
+  prev: pc=0x800000dc op=LW @ 16755ns
+  regext: SM 1 warp 3 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @16765ns,1 [trace decode.cpp:72]
+  next: pc=0x800000e0 op=SW @ 16795ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x800000dc                LW_0x01052283 WB x[005]=0x00000200 @16755ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @16765ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x800000e0                SW_0xfe512c23 mask=FFFFFFFF ADDR 70000814, DATA 200 @16795ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#19  SM=1 warp=7  REGEXT_pc=0x8000010c @ 16945ns
+  prev: pc=0x800000dc op=LW @ 16935ns
+  regext: SM 1 warp 7 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @16945ns,1 [trace decode.cpp:72]
+  next: pc=0x800000e0 op=SW @ 16975ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x800000dc                LW_0x01052283 WB x[005]=0x00000200 @16935ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @16945ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x800000e0                SW_0xfe512c23 mask=FFFFFFFF ADDR 70001814, DATA 200 @16975ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#20  SM=1 warp=4  REGEXT_pc=0x8000010c @ 17125ns
+  prev: pc=0x800000dc op=LW @ 17115ns
+  regext: SM 1 warp 4 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @17125ns,1 [trace decode.cpp:72]
+  next: pc=0x800000e0 op=SW @ 17155ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x800000dc                LW_0x01052283 WB x[005]=0x00000200 @17115ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @17125ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x800000e0                SW_0xfe512c23 mask=FFFFFFFF ADDR 70000c14, DATA 200 @17155ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#21  SM=1 warp=5  REGEXT_pc=0x8000010c @ 21895ns
+  prev: pc=0x800000dc op=LW @ 21885ns
+  regext: SM 1 warp 5 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @21895ns,1 [trace decode.cpp:72]
+  next: pc=0x800000e0 op=SW @ 21925ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x800000dc                LW_0x01052283 WB x[005]=0x00000200 @21885ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @21895ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x800000e0                SW_0xfe512c23 mask=FFFFFFFF ADDR 70001014, DATA 200 @21925ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#22  SM=1 warp=6  REGEXT_pc=0x8000010c @ 22075ns
+  prev: pc=0x800000dc op=LW @ 22065ns
+  regext: SM 1 warp 6 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @22075ns,1 [trace decode.cpp:72]
+  next: pc=0x800000e0 op=SW @ 22105ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x800000dc                LW_0x01052283 WB x[005]=0x00000200 @22065ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @22075ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x800000e0                SW_0xfe512c23 mask=FFFFFFFF ADDR 70001414, DATA 200 @22105ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#23  SM=1 warp=1  REGEXT_pc=0x8000010c @ 22255ns
+  prev: pc=0x800000dc op=LW @ 22245ns
+  regext: SM 1 warp 1 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @22255ns,1 [trace decode.cpp:72]
+  next: pc=0x800000e0 op=SW @ 22285ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x800000dc                LW_0x01052283 WB x[005]=0x00000200 @22245ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @22255ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x800000e0                SW_0xfe512c23 mask=FFFFFFFF ADDR 70000014, DATA 200 @22285ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#24  SM=1 warp=0  REGEXT_pc=0x8000010c @ 22435ns
+  prev: pc=0x800000dc op=LW @ 22425ns
+  regext: SM 1 warp 0 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @22435ns,1 [trace decode.cpp:72]
+  next: pc=0x800000e0 op=SW @ 22465ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x800000dc                LW_0x01052283 WB x[005]=0x00000200 @22425ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x8000010c            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @22435ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x800000e0                SW_0xfe512c23 mask=FFFFFFFF ADDR 70001c14, DATA 200 @22465ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#25  SM=1 warp=2  REGEXT_pc=0x80000120 @ 23665ns
+  prev: pc=0x800000ec op=LW @ 23655ns
+  regext: SM 1 warp 2 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @23665ns,1 [trace decode.cpp:72]
+  next: pc=0x800000f0 op=SW @ 23695ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x800000ec                LW_0x00852283 WB x[005]=0x90200000 @23655ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @23665ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x800000f0                SW_0xfe512823 mask=FFFFFFFF ADDR 7000040c, DATA 90200000 @23695ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#26  SM=1 warp=3  REGEXT_pc=0x80000120 @ 23845ns
+  prev: pc=0x800000ec op=LW @ 23835ns
+  regext: SM 1 warp 3 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @23845ns,1 [trace decode.cpp:72]
+  next: pc=0x800000f0 op=SW @ 23875ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x800000ec                LW_0x00852283 WB x[005]=0x90200000 @23835ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @23845ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x800000f0                SW_0xfe512823 mask=FFFFFFFF ADDR 7000080c, DATA 90200000 @23875ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#27  SM=1 warp=7  REGEXT_pc=0x80000120 @ 24025ns
+  prev: pc=0x800000ec op=LW @ 24015ns
+  regext: SM 1 warp 7 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @24025ns,1 [trace decode.cpp:72]
+  next: pc=0x800000f0 op=SW @ 24055ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x800000ec                LW_0x00852283 WB x[005]=0x90200000 @24015ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @24025ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x800000f0                SW_0xfe512823 mask=FFFFFFFF ADDR 7000180c, DATA 90200000 @24055ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#28  SM=1 warp=4  REGEXT_pc=0x80000120 @ 24205ns
+  prev: pc=0x800000ec op=LW @ 24195ns
+  regext: SM 1 warp 4 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @24205ns,1 [trace decode.cpp:72]
+  next: pc=0x800000f0 op=SW @ 24235ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x800000ec                LW_0x00852283 WB x[005]=0x90200000 @24195ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @24205ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x800000f0                SW_0xfe512823 mask=FFFFFFFF ADDR 70000c0c, DATA 90200000 @24235ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#29  SM=1 warp=5  REGEXT_pc=0x80000120 @ 28975ns
+  prev: pc=0x800000ec op=LW @ 28965ns
+  regext: SM 1 warp 5 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @28975ns,1 [trace decode.cpp:72]
+  next: pc=0x800000f0 op=SW @ 29005ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x800000ec                LW_0x00852283 WB x[005]=0x90200000 @28965ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @28975ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x800000f0                SW_0xfe512823 mask=FFFFFFFF ADDR 7000100c, DATA 90200000 @29005ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#30  SM=1 warp=6  REGEXT_pc=0x80000120 @ 29155ns
+  prev: pc=0x800000ec op=LW @ 29145ns
+  regext: SM 1 warp 6 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @29155ns,1 [trace decode.cpp:72]
+  next: pc=0x800000f0 op=SW @ 29185ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x800000ec                LW_0x00852283 WB x[005]=0x90200000 @29145ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @29155ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x800000f0                SW_0xfe512823 mask=FFFFFFFF ADDR 7000140c, DATA 90200000 @29185ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#31  SM=1 warp=1  REGEXT_pc=0x80000120 @ 29335ns
+  prev: pc=0x800000ec op=LW @ 29325ns
+  regext: SM 1 warp 1 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @29335ns,1 [trace decode.cpp:72]
+  next: pc=0x800000f0 op=SW @ 29365ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x800000ec                LW_0x00852283 WB x[005]=0x90200000 @29325ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @29335ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x800000f0                SW_0xfe512823 mask=FFFFFFFF ADDR 7000000c, DATA 90200000 @29365ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#32  SM=1 warp=0  REGEXT_pc=0x80000120 @ 29515ns
+  prev: pc=0x800000ec op=LW @ 29505ns
+  regext: SM 1 warp 0 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @29515ns,1 [trace decode.cpp:72]
+  next: pc=0x800000f0 op=SW @ 29545ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x800000ec                LW_0x00852283 WB x[005]=0x90200000 @29505ns,1 [trace regfile.cpp:87]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x80000120            REGEXT_0x0080200b REGEXT(s3,s2,s1,d)=0,0,1,0 @29515ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x800000f0                SW_0xfe512823 mask=FFFFFFFF ADDR 70001c0c, DATA 90200000 @29545ns,1 [trace exec_lsu.cpp:183]
+
+==========================================================================================
+[UNUSED] EVENT#50  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 50655ns
+  prev: pc=0x80000184 op=BGE @ 50635ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @50655ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 50675ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @50635ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @50655ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @50675ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#52  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 51055ns
+  prev: pc=0x80000184 op=BGE @ 51035ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @51055ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 51075ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @51035ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @51055ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @51075ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#56  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 52685ns
+  prev: pc=0x80000184 op=BGE @ 52665ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @52685ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 52705ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @52665ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @52685ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @52705ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#60  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 54955ns
+  prev: pc=0x80000184 op=BGE @ 54935ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54955ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 54975ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @54935ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54955ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @54975ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#62  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 55995ns
+  prev: pc=0x80000184 op=BGE @ 55965ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @55995ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 56015ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @55965ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @55995ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @56015ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#66  SM=1 warp=1  REGEXT_pc=0x800001b4 @ 57475ns
+  prev: pc=0x80000184 op=BGE @ 57455ns
+  regext: SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @57475ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 57495ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @57455ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @57475ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @57495ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#69  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 58435ns
+  prev: pc=0x80000184 op=BGE @ 58415ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @58435ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 58465ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @58415ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @58435ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @58465ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#71  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 59485ns
+  prev: pc=0x80000184 op=BGE @ 59465ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @59485ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 59505ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @59465ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @59485ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @59505ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#73  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 28281405ns
+  prev: pc=0x80000188 op=JAL @ 28281405ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @28281405ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 28281415ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @28281405ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @28281405ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @28281415ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#74  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 28281415ns
+  prev: pc=0x80000188 op=JAL @ 28281415ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @28281415ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 28281425ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @28281415ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @28281415ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @28281425ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#76  SM=1 warp=1  REGEXT_pc=0x800001b4 @ 28281395ns
+  prev: pc=0x80000184 op=BGE @ 28281345ns
+  regext: SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @28281395ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 28281435ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @28281345ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @28281395ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @28281435ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#78  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 28281435ns
+  prev: pc=0x80000184 op=BGE @ 28281385ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @28281435ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 28281455ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @28281385ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @28281435ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @28281455ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#85  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 54991275ns
+  prev: pc=0x80000188 op=JAL @ 54991275ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54991275ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 54991285ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @54991275ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54991275ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @54991285ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#86  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 54991285ns
+  prev: pc=0x80000188 op=JAL @ 54991285ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54991285ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 54991295ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @54991285ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54991285ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @54991295ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#88  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 54991265ns
+  prev: pc=0x80000184 op=BGE @ 54991215ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54991265ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 54991305ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @54991215ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54991265ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @54991305ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#90  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 54991305ns
+  prev: pc=0x80000184 op=BGE @ 54991255ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54991305ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 54991325ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @54991255ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @54991305ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @54991325ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#97  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 81936885ns
+  prev: pc=0x80000188 op=JAL @ 81936885ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @81936885ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 81936895ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @81936885ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @81936885ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @81936895ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#98  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 81936895ns
+  prev: pc=0x80000188 op=JAL @ 81936895ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @81936895ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 81936905ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @81936895ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @81936895ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @81936905ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#100  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 81936875ns
+  prev: pc=0x80000184 op=BGE @ 81936825ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @81936875ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 81936915ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @81936825ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @81936875ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @81936915ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#102  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 81936915ns
+  prev: pc=0x80000184 op=BGE @ 81936865ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @81936915ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 81936935ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @81936865ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @81936915ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @81936935ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#109  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 108878385ns
+  prev: pc=0x80000188 op=JAL @ 108878385ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @108878385ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 108878395ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @108878385ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @108878385ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @108878395ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#110  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 108878395ns
+  prev: pc=0x80000188 op=JAL @ 108878395ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @108878395ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 108878405ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @108878395ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @108878395ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @108878405ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#112  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 108878375ns
+  prev: pc=0x80000184 op=BGE @ 108878325ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @108878375ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 108878415ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @108878325ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @108878375ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @108878415ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#114  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 108878415ns
+  prev: pc=0x80000184 op=BGE @ 108878365ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @108878415ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 108878435ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @108878365ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @108878415ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @108878435ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#121  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 135847545ns
+  prev: pc=0x80000188 op=JAL @ 135847545ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @135847545ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 135847555ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @135847545ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @135847545ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @135847555ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#122  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 135847555ns
+  prev: pc=0x80000188 op=JAL @ 135847555ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @135847555ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 135847565ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @135847555ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @135847555ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @135847565ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#124  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 135847535ns
+  prev: pc=0x80000184 op=BGE @ 135847485ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @135847535ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 135847575ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @135847485ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @135847535ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @135847575ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#126  SM=1 warp=1  REGEXT_pc=0x800001b4 @ 135847575ns
+  prev: pc=0x80000184 op=BGE @ 135847525ns
+  regext: SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @135847575ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 135847595ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @135847525ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @135847575ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @135847595ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#133  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 162815025ns
+  prev: pc=0x80000188 op=JAL @ 162815025ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @162815025ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 162815035ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @162815025ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @162815025ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @162815035ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#134  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 162815035ns
+  prev: pc=0x80000188 op=JAL @ 162815035ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @162815035ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 162815045ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @162815035ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @162815035ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @162815045ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#136  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 162815015ns
+  prev: pc=0x80000184 op=BGE @ 162814965ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @162815015ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 162815055ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @162814965ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @162815015ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @162815055ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#138  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 162815055ns
+  prev: pc=0x80000184 op=BGE @ 162815005ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @162815055ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 162815075ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @162815005ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @162815055ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @162815075ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#145  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 189784425ns
+  prev: pc=0x80000188 op=JAL @ 189784425ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @189784425ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 189784435ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @189784425ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @189784425ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @189784435ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#146  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 189784435ns
+  prev: pc=0x80000188 op=JAL @ 189784435ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @189784435ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 189784445ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @189784435ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @189784435ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @189784445ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#148  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 189784415ns
+  prev: pc=0x80000184 op=BGE @ 189784365ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @189784415ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 189784455ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @189784365ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @189784415ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @189784455ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#150  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 189784455ns
+  prev: pc=0x80000184 op=BGE @ 189784405ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @189784455ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 189784475ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @189784405ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @189784455ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @189784475ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#157  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 216677865ns
+  prev: pc=0x80000188 op=JAL @ 216677865ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @216677865ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 216677875ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @216677865ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @216677865ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @216677875ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#158  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 216677875ns
+  prev: pc=0x80000188 op=JAL @ 216677875ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @216677875ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 216677885ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @216677875ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @216677875ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @216677885ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#160  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 216677855ns
+  prev: pc=0x80000184 op=BGE @ 216677805ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @216677855ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 216677895ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @216677805ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @216677855ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @216677895ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#162  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 216677895ns
+  prev: pc=0x80000184 op=BGE @ 216677845ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @216677895ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 216677915ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @216677845ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @216677895ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @216677915ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#169  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 244946385ns
+  prev: pc=0x80000188 op=JAL @ 244946385ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @244946385ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 244946395ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @244946385ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @244946385ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @244946395ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#170  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 244946395ns
+  prev: pc=0x80000188 op=JAL @ 244946395ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @244946395ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 244946405ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @244946395ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @244946395ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @244946405ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#172  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 244946375ns
+  prev: pc=0x80000184 op=BGE @ 244946325ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @244946375ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 244946415ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @244946325ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @244946375ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @244946415ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#174  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 244946415ns
+  prev: pc=0x80000184 op=BGE @ 244946365ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @244946415ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 244946435ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @244946365ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @244946415ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @244946435ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#181  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 271862235ns
+  prev: pc=0x80000188 op=JAL @ 271862235ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @271862235ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 271862245ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @271862235ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @271862235ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @271862245ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#182  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 271862245ns
+  prev: pc=0x80000188 op=JAL @ 271862245ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @271862245ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 271862255ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @271862245ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @271862245ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @271862255ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#184  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 271862225ns
+  prev: pc=0x80000184 op=BGE @ 271862175ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @271862225ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 271862265ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @271862175ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @271862225ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @271862265ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#186  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 271862265ns
+  prev: pc=0x80000184 op=BGE @ 271862215ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @271862265ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 271862285ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @271862215ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @271862265ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @271862285ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#193  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 298831215ns
+  prev: pc=0x80000188 op=JAL @ 298831215ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @298831215ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 298831225ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @298831215ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @298831215ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @298831225ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#194  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 298831225ns
+  prev: pc=0x80000188 op=JAL @ 298831225ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @298831225ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 298831235ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @298831225ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @298831225ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @298831235ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#196  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 298831205ns
+  prev: pc=0x80000184 op=BGE @ 298831155ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @298831205ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 298831245ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @298831155ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @298831205ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @298831245ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#198  SM=1 warp=1  REGEXT_pc=0x800001b4 @ 298831245ns
+  prev: pc=0x80000184 op=BGE @ 298831195ns
+  regext: SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @298831245ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 298831265ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @298831195ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @298831245ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @298831265ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#205  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 325518045ns
+  prev: pc=0x80000188 op=JAL @ 325518045ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @325518045ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 325518055ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @325518045ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @325518045ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @325518055ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#206  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 325518055ns
+  prev: pc=0x80000188 op=JAL @ 325518055ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @325518055ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 325518065ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @325518055ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @325518055ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @325518065ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#208  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 325518035ns
+  prev: pc=0x80000184 op=BGE @ 325517985ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @325518035ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 325518075ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @325517985ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @325518035ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @325518075ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#210  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 325518075ns
+  prev: pc=0x80000184 op=BGE @ 325518025ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @325518075ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 325518095ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @325518025ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @325518075ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @325518095ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#217  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 352487055ns
+  prev: pc=0x80000188 op=JAL @ 352487055ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @352487055ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 352487065ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @352487055ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @352487055ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @352487065ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#218  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 352487065ns
+  prev: pc=0x80000188 op=JAL @ 352487065ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @352487065ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 352487075ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @352487065ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @352487065ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @352487075ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#220  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 352487045ns
+  prev: pc=0x80000184 op=BGE @ 352486995ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @352487045ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 352487085ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @352486995ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @352487045ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @352487085ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#222  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 352487085ns
+  prev: pc=0x80000184 op=BGE @ 352487035ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @352487085ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 352487105ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @352487035ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @352487085ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @352487105ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#229  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 379307205ns
+  prev: pc=0x80000188 op=JAL @ 379307205ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @379307205ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 379307215ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @379307205ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @379307205ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @379307215ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#230  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 379307215ns
+  prev: pc=0x80000188 op=JAL @ 379307215ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @379307215ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 379307225ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @379307215ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @379307215ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @379307225ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#232  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 379307195ns
+  prev: pc=0x80000184 op=BGE @ 379307145ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @379307195ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 379307235ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @379307145ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @379307195ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @379307235ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#234  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 379307235ns
+  prev: pc=0x80000184 op=BGE @ 379307185ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @379307235ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 379307255ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @379307185ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @379307235ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @379307255ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#241  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 406274655ns
+  prev: pc=0x80000188 op=JAL @ 406274655ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @406274655ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 406274665ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @406274655ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @406274655ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @406274665ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#242  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 406274665ns
+  prev: pc=0x80000188 op=JAL @ 406274665ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @406274665ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 406274675ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @406274665ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @406274665ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @406274675ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#244  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 406274645ns
+  prev: pc=0x80000184 op=BGE @ 406274595ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @406274645ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 406274685ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @406274595ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @406274645ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @406274685ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#246  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 406274685ns
+  prev: pc=0x80000184 op=BGE @ 406274635ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @406274685ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 406274705ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @406274635ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @406274685ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @406274705ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#253  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 433109595ns
+  prev: pc=0x80000188 op=JAL @ 433109595ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @433109595ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 433109605ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @433109595ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @433109595ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @433109605ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#254  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 433109605ns
+  prev: pc=0x80000188 op=JAL @ 433109605ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @433109605ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 433109615ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @433109605ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @433109605ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @433109615ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#256  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 433109585ns
+  prev: pc=0x80000184 op=BGE @ 433109535ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @433109585ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 433109625ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @433109535ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @433109585ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @433109625ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#258  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 433109625ns
+  prev: pc=0x80000184 op=BGE @ 433109575ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @433109625ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 433109645ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @433109575ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @433109625ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @433109645ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#265  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 461362965ns
+  prev: pc=0x80000188 op=JAL @ 461362965ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @461362965ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 461362975ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @461362965ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @461362965ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @461362975ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#266  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 461362975ns
+  prev: pc=0x80000188 op=JAL @ 461362975ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @461362975ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 461362985ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @461362975ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @461362975ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @461362985ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#268  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 461362955ns
+  prev: pc=0x80000184 op=BGE @ 461362905ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @461362955ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 461362995ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @461362905ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @461362955ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @461362995ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#270  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 461362995ns
+  prev: pc=0x80000184 op=BGE @ 461362945ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @461362995ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 461363015ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @461362945ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @461362995ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @461363015ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#277  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 488169915ns
+  prev: pc=0x80000188 op=JAL @ 488169915ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @488169915ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 488169925ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @488169915ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @488169915ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @488169925ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#278  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 488169925ns
+  prev: pc=0x80000188 op=JAL @ 488169925ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @488169925ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 488169935ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @488169925ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @488169925ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @488169935ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#280  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 488169905ns
+  prev: pc=0x80000184 op=BGE @ 488169855ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @488169905ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 488169945ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @488169855ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @488169905ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @488169945ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#282  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 488169945ns
+  prev: pc=0x80000184 op=BGE @ 488169895ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @488169945ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 488169965ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @488169895ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @488169945ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @488169965ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#289  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 515115525ns
+  prev: pc=0x80000188 op=JAL @ 515115525ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @515115525ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 515115535ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @515115525ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @515115525ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @515115535ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#290  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 515115535ns
+  prev: pc=0x80000188 op=JAL @ 515115535ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @515115535ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 515115545ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @515115535ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @515115535ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @515115545ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#292  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 515115515ns
+  prev: pc=0x80000184 op=BGE @ 515115465ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @515115515ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 515115555ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @515115465ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @515115515ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @515115555ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#294  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 515115555ns
+  prev: pc=0x80000184 op=BGE @ 515115505ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @515115555ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 515115575ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @515115505ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @515115555ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @515115575ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#301  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 542057025ns
+  prev: pc=0x80000188 op=JAL @ 542057025ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @542057025ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 542057035ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @542057025ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @542057025ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @542057035ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#302  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 542057035ns
+  prev: pc=0x80000188 op=JAL @ 542057035ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @542057035ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 542057045ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @542057035ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @542057035ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @542057045ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#304  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 542057015ns
+  prev: pc=0x80000184 op=BGE @ 542056965ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @542057015ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 542057055ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @542056965ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @542057015ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @542057055ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#306  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 542057055ns
+  prev: pc=0x80000184 op=BGE @ 542057005ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @542057055ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 542057075ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @542057005ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @542057055ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @542057075ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#313  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 569026185ns
+  prev: pc=0x80000188 op=JAL @ 569026185ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @569026185ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 569026195ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @569026185ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @569026185ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @569026195ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#314  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 569026195ns
+  prev: pc=0x80000188 op=JAL @ 569026195ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @569026195ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 569026205ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @569026195ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @569026195ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @569026205ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#316  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 569026175ns
+  prev: pc=0x80000184 op=BGE @ 569026125ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @569026175ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 569026215ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @569026125ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @569026175ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @569026215ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#318  SM=1 warp=1  REGEXT_pc=0x800001b4 @ 569026215ns
+  prev: pc=0x80000184 op=BGE @ 569026165ns
+  regext: SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @569026215ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 569026235ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @569026165ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @569026215ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @569026235ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#325  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 595993665ns
+  prev: pc=0x80000188 op=JAL @ 595993665ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @595993665ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 595993675ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @595993665ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @595993665ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @595993675ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#326  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 595993675ns
+  prev: pc=0x80000188 op=JAL @ 595993675ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @595993675ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 595993685ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @595993675ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @595993675ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @595993685ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#328  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 595993655ns
+  prev: pc=0x80000184 op=BGE @ 595993605ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @595993655ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 595993695ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @595993605ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @595993655ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @595993695ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#330  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 595993695ns
+  prev: pc=0x80000184 op=BGE @ 595993645ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @595993695ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 595993715ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @595993645ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @595993695ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @595993715ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#337  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 622963065ns
+  prev: pc=0x80000188 op=JAL @ 622963065ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @622963065ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 622963075ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @622963065ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @622963065ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @622963075ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#338  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 622963075ns
+  prev: pc=0x80000188 op=JAL @ 622963075ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @622963075ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 622963085ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @622963075ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @622963075ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @622963085ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#340  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 622963055ns
+  prev: pc=0x80000184 op=BGE @ 622963005ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @622963055ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 622963095ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @622963005ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @622963055ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @622963095ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#342  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 622963095ns
+  prev: pc=0x80000184 op=BGE @ 622963045ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @622963095ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 622963115ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @622963045ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @622963095ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @622963115ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#349  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 649856505ns
+  prev: pc=0x80000188 op=JAL @ 649856505ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @649856505ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 649856515ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @649856505ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @649856505ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @649856515ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#350  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 649856515ns
+  prev: pc=0x80000188 op=JAL @ 649856515ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @649856515ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 649856525ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @649856515ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @649856515ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @649856525ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#352  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 649856495ns
+  prev: pc=0x80000184 op=BGE @ 649856445ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @649856495ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 649856535ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @649856445ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @649856495ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @649856535ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#354  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 649856535ns
+  prev: pc=0x80000184 op=BGE @ 649856485ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @649856535ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 649856555ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @649856485ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @649856535ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @649856555ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#361  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 678125025ns
+  prev: pc=0x80000188 op=JAL @ 678125025ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @678125025ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 678125035ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @678125025ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @678125025ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @678125035ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#362  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 678125035ns
+  prev: pc=0x80000188 op=JAL @ 678125035ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @678125035ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 678125045ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @678125035ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @678125035ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @678125045ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#364  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 678125015ns
+  prev: pc=0x80000184 op=BGE @ 678124965ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @678125015ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 678125055ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @678124965ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @678125015ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @678125055ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#366  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 678125055ns
+  prev: pc=0x80000184 op=BGE @ 678125005ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @678125055ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 678125075ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @678125005ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @678125055ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @678125075ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#373  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 705040875ns
+  prev: pc=0x80000188 op=JAL @ 705040875ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @705040875ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 705040885ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @705040875ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @705040875ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @705040885ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#374  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 705040885ns
+  prev: pc=0x80000188 op=JAL @ 705040885ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @705040885ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 705040895ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @705040885ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @705040885ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @705040895ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#376  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 705040865ns
+  prev: pc=0x80000184 op=BGE @ 705040815ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @705040865ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 705040905ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @705040815ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @705040865ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @705040905ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#378  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 705040905ns
+  prev: pc=0x80000184 op=BGE @ 705040855ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @705040905ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 705040925ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @705040855ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @705040905ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @705040925ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#385  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 732009855ns
+  prev: pc=0x80000188 op=JAL @ 732009855ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @732009855ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 732009865ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @732009855ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @732009855ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @732009865ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#386  SM=1 warp=7  REGEXT_pc=0x800001b4 @ 732009865ns
+  prev: pc=0x80000188 op=JAL @ 732009865ns
+  regext: SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @732009865ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 732009875ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @732009865ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 7 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @732009865ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 7 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @732009875ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#388  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 732009845ns
+  prev: pc=0x80000184 op=BGE @ 732009795ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @732009845ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 732009885ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @732009795ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @732009845ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @732009885ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#390  SM=1 warp=1  REGEXT_pc=0x800001b4 @ 732009885ns
+  prev: pc=0x80000184 op=BGE @ 732009835ns
+  regext: SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @732009885ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 732009905ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 1 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @732009835ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 1 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @732009885ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 1 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @732009905ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#397  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 758696685ns
+  prev: pc=0x80000188 op=JAL @ 758696685ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @758696685ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 758696695ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @758696685ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @758696685ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @758696695ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#398  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 758696695ns
+  prev: pc=0x80000188 op=JAL @ 758696695ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @758696695ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 758696705ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @758696695ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @758696695ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @758696705ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#400  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 758696675ns
+  prev: pc=0x80000184 op=BGE @ 758696625ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @758696675ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 758696715ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @758696625ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @758696675ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @758696715ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#402  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 758696715ns
+  prev: pc=0x80000184 op=BGE @ 758696665ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @758696715ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 758696735ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @758696665ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @758696715ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @758696735ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#409  SM=1 warp=3  REGEXT_pc=0x800001b4 @ 785665695ns
+  prev: pc=0x80000188 op=JAL @ 785665695ns
+  regext: SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @785665695ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 785665705ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @785665695ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 3 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @785665695ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 3 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @785665705ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#410  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 785665705ns
+  prev: pc=0x80000188 op=JAL @ 785665705ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @785665705ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 785665715ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @785665705ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @785665705ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @785665715ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#412  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 785665685ns
+  prev: pc=0x80000184 op=BGE @ 785665635ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @785665685ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 785665725ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @785665635ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @785665685ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @785665725ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#414  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 785665725ns
+  prev: pc=0x80000184 op=BGE @ 785665675ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @785665725ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 785665745ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @785665675ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @785665725ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @785665745ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#421  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 812485845ns
+  prev: pc=0x80000188 op=JAL @ 812485845ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @812485845ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 812485855ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @812485845ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @812485845ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @812485855ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#422  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 812485855ns
+  prev: pc=0x80000188 op=JAL @ 812485855ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @812485855ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 812485865ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @812485855ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @812485855ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @812485865ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#424  SM=1 warp=2  REGEXT_pc=0x800001b4 @ 812485835ns
+  prev: pc=0x80000184 op=BGE @ 812485785ns
+  regext: SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @812485835ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 812485875ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 2 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @812485785ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 2 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @812485835ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 2 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @812485875ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#426  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 812485875ns
+  prev: pc=0x80000184 op=BGE @ 812485825ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @812485875ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 812485895ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @812485825ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @812485875ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @812485895ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#433  SM=1 warp=5  REGEXT_pc=0x800001b4 @ 839453295ns
+  prev: pc=0x80000188 op=JAL @ 839453295ns
+  regext: SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @839453295ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 839453305ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @839453295ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 5 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @839453295ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 5 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @839453305ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#434  SM=1 warp=6  REGEXT_pc=0x800001b4 @ 839453305ns
+  prev: pc=0x80000188 op=JAL @ 839453305ns
+  regext: SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @839453305ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 839453315ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @839453305ns,1 [trace exec_salu.cpp:108]
+
+-- REGEXT LINE --
+SM 1 warp 6 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @839453305ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 6 0x80000188               JAL_0x0040006f WB x[000]=0x8000018c @839453315ns,1 [trace regfile.cpp:87]
+
+==========================================================================================
+[UNUSED] EVENT#436  SM=1 warp=4  REGEXT_pc=0x800001b4 @ 839453285ns
+  prev: pc=0x80000184 op=BGE @ 839453235ns
+  regext: SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @839453285ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 839453325ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 4 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @839453235ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 4 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @839453285ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 4 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @839453325ns,1 [trace exec_salu.cpp:108]
+
+==========================================================================================
+[UNUSED] EVENT#438  SM=1 warp=0  REGEXT_pc=0x800001b4 @ 839453325ns
+  prev: pc=0x80000184 op=BGE @ 839453275ns
+  regext: SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @839453325ns,1 [trace decode.cpp:72]
+  next: pc=0x80000188 op=JAL @ 839453345ns  has_is_used=0
+
+-- PREV LINE --
+SM 1 warp 0 0x80000184               BGE_0x02905e63 mask=FFFFFFFF, JUMP=false @839453275ns,1 [trace exec_salu.cpp:339]
+
+-- REGEXT LINE --
+SM 1 warp 0 0x800001b4            REGEXT_0x0010200b REGEXT(s3,s2,s1,d)=0,0,0,1 @839453325ns,1 [trace decode.cpp:72]
+
+-- NEXT LINE --
+SM 1 warp 0 0x80000188               JAL_0x0040006f JUMP=true, jumpTO 0x8000018c @839453345ns,1 [trace exec_salu.cpp:108]
+
