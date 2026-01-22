@@ -1,0 +1,593 @@
+
+object0.riscv:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+80000000 <_start>:
+80000000:	00004197          	auipc	gp,0x4
+80000004:	80818193          	addi	gp,gp,-2040 # 80003808 <__global_pointer$>
+80000008:	02000e93          	li	t4,32
+8000000c:	0d0efed7          	vsetvli	t4,t4,e32,m1,ta,ma
+80000010:	00002eb7          	lui	t4,0x2
+80000014:	300eaef3          	csrrs	t4,mstatus,t4
+80000018:	00000e93          	li	t4,0
+8000001c:	80502373          	csrr	t1,0x805
+80000020:	806023f3          	csrr	t2,0x806
+80000024:	40000e13          	li	t3,1024
+80000028:	03c30333          	mul	t1,t1,t3
+8000002c:	00730133          	add	sp,t1,t2
+80000030:	00000213          	li	tp,0
+80000034:	80102f73          	csrr	t5,0x801
+80000038:	40000e13          	li	t3,1024
+8000003c:	03cf0f33          	mul	t5,t5,t3
+80000040:	01e38433          	add	s0,t2,t5
+
+80000044 <.Lpcrel_hi1>:
+80000044:	00003517          	auipc	a0,0x3
+80000048:	fc850513          	addi	a0,a0,-56 # 8000300c <__BSS_END__>
+
+8000004c <.Lpcrel_hi2>:
+8000004c:	00003617          	auipc	a2,0x3
+80000050:	fc060613          	addi	a2,a2,-64 # 8000300c <__BSS_END__>
+80000054:	00c50863          	beq	a0,a2,80000064 <.Ltmp0>
+
+80000058 <.Ltmp1>:
+80000058:	00052023          	sw	zero,0(a0)
+8000005c:	00450513          	addi	a0,a0,4
+80000060:	fec56ce3          	bltu	a0,a2,80000058 <.Ltmp1>
+
+80000064 <.Ltmp0>:
+80000064:	803022f3          	csrr	t0,0x803
+80000068:	0002a303          	lw	t1,0(t0)
+8000006c:	0042a503          	lw	a0,4(t0)
+80000070:	0302a383          	lw	t2,48(t0)
+80000074:	0342ae03          	lw	t3,52(t0)
+
+80000078 <.Lpcrel_hi3>:
+80000078:	00003e97          	auipc	t4,0x3
+8000007c:	f88e8e93          	addi	t4,t4,-120 # 80003000 <BUFFER_ADDR>
+
+80000080 <.Lpcrel_hi4>:
+80000080:	00003f17          	auipc	t5,0x3
+80000084:	f84f0f13          	addi	t5,t5,-124 # 80003004 <BUFFER_SIZE>
+80000088:	007ea023          	sw	t2,0(t4)
+8000008c:	01cf2023          	sw	t3,0(t5)
+
+80000090 <.Lpcrel_hi5>:
+80000090:	00000f97          	auipc	t6,0x0
+80000094:	018f8f93          	addi	t6,t6,24 # 800000a8 <spike_end>
+80000098:	305f9073          	csrw	mtvec,t6
+8000009c:	000300e7          	jalr	t1
+800000a0:	0000400b          	.insn	4, 0x400b
+800000a4:	0040006f          	j	800000a8 <spike_end>
+
+800000a8 <spike_end>:
+800000a8:	00100313          	li	t1,1
+
+800000ac <.Lpcrel_hi6>:
+800000ac:	00001297          	auipc	t0,0x1
+800000b0:	f5428293          	addi	t0,t0,-172 # 80001000 <tohost>
+800000b4:	0062a023          	sw	t1,0(t0)
+
+800000b8 <sgemm_one_wg>:
+800000b8:	01c10113          	addi	sp,sp,28
+800000bc:	7f040413          	addi	s0,s0,2032
+800000c0:	01040413          	addi	s0,s0,16
+800000c4:	00c20213          	addi	tp,tp,12 # c <__eh_frame_hdr_end+0xc>
+800000c8:	0010200b          	.insn	4, 0x0010200b
+800000cc:	5e024057          	vmv.v.x	v0,tp
+800000d0:	fe112223          	sw	ra,-28(sp)
+800000d4:	01452283          	lw	t0,20(a0)
+800000d8:	fe512e23          	sw	t0,-4(sp)
+800000dc:	01052283          	lw	t0,16(a0)
+800000e0:	fe512c23          	sw	t0,-8(sp)
+800000e4:	00c52283          	lw	t0,12(a0)
+800000e8:	fe512a23          	sw	t0,-12(sp)
+800000ec:	00852283          	lw	t0,8(a0)
+800000f0:	fe512823          	sw	t0,-16(sp)
+800000f4:	00452283          	lw	t0,4(a0)
+800000f8:	fe512623          	sw	t0,-20(sp)
+800000fc:	00052283          	lw	t0,0(a0)
+80000100:	fe512423          	sw	t0,-24(sp)
+80000104:	5e004057          	vmv.v.x	v0,zero
+80000108:	210000ef          	jal	80000318 <_Z12get_local_idj>
+8000010c:	0080200b          	.insn	4, 0x0080200b
+80000110:	fe002e2b          	.insn	4, 0xfe002e2b
+80000114:	00100293          	li	t0,1
+80000118:	5e02c057          	vmv.v.x	v0,t0
+8000011c:	1fc000ef          	jal	80000318 <_Z12get_local_idj>
+80000120:	0080200b          	.insn	4, 0x0080200b
+80000124:	fe002c2b          	.insn	4, 0xfe002c2b
+80000128:	5e004057          	vmv.v.x	v0,zero
+8000012c:	264000ef          	jal	80000390 <_Z12get_group_idj>
+80000130:	0080200b          	.insn	4, 0x0080200b
+80000134:	fe002a2b          	.insn	4, 0xfe002a2b
+80000138:	00100293          	li	t0,1
+8000013c:	5e02c057          	vmv.v.x	v0,t0
+80000140:	250000ef          	jal	80000390 <_Z12get_group_idj>
+80000144:	0080200b          	.insn	4, 0x0080200b
+80000148:	7f8028ab          	.insn	4, 0x7f8028ab
+8000014c:	0080200b          	.insn	4, 0x0080200b
+80000150:	7fc0282b          	.insn	4, 0x7fc0282b
+80000154:	fe812683          	lw	a3,-24(sp)
+80000158:	fec12603          	lw	a2,-20(sp)
+8000015c:	ff012583          	lw	a1,-16(sp)
+80000160:	ff412503          	lw	a0,-12(sp)
+80000164:	ff812483          	lw	s1,-8(sp)
+80000168:	ffc12383          	lw	t2,-4(sp)
+8000016c:	96023057          	vsll.vi	v0,v0,4
+80000170:	5e0540d7          	vmv.v.x	v1,a0
+
+80000174 <.Lpcrel_hi0>:
+80000174:	00000317          	auipc	t1,0x0
+80000178:	0583305b          	.insn	4, 0x0583305b
+8000017c:	0400d85b          	.insn	4, 0x0400d85b
+80000180:	0040006f          	j	80000184 <.LBB0_1>
+
+80000184 <.LBB0_1>:
+80000184:	0080200b          	.insn	4, 0x0080200b
+80000188:	7f4020ab          	.insn	4, 0x7f4020ab
+8000018c:	961230d7          	vsll.vi	v1,v1,4
+80000190:	97123157          	vsll.vi	v2,v17,4
+80000194:	02280157          	vadd.vv	v2,v2,v16
+80000198:	962131d7          	vsll.vi	v3,v2,2
+8000019c:	80040293          	addi	t0,s0,-2048
+800001a0:	00040293          	mv	t0,s0
+800001a4:	0232c157          	vadd.vx	v2,v3,t0
+800001a8:	5e02c2d7          	vmv.v.x	v5,t0
+800001ac:	c0040293          	addi	t0,s0,-1024
+800001b0:	0232c1d7          	vadd.vx	v3,v3,t0
+800001b4:	5e02c257          	vmv.v.x	v4,t0
+800001b8:	97013357          	vsll.vi	v6,v16,2
+800001bc:	02430257          	vadd.vv	v4,v4,v6
+800001c0:	97133357          	vsll.vi	v6,v17,6
+800001c4:	025302d7          	vadd.vv	v5,v5,v6
+800001c8:	0240006f          	j	800001ec <.LBB0_3>
+
+800001cc <.LBB0_2>:
+800001cc:	0000205b          	.insn	4, 0x205b
+800001d0:	fe412083          	lw	ra,-28(sp)
+800001d4:	fe410113          	addi	sp,sp,-28
+800001d8:	80040413          	addi	s0,s0,-2048
+800001dc:	ff420213          	addi	tp,tp,-12 # fffffff4 <__global_pointer$+0x7fffc7ec>
+800001e0:	0010200b          	.insn	4, 0x0010200b
+800001e4:	5e024057          	vmv.v.x	v0,tp
+800001e8:	00008067          	ret
+
+800001ec <.LBB0_3>:
+800001ec:	5e04c357          	vmv.v.x	v6,s1
+
+800001f0 <.Lpcrel_hi1>:
+800001f0:	00000317          	auipc	t1,0x0
+800001f4:	0243305b          	.insn	4, 0x0243305b
+800001f8:	00135e5b          	.insn	4, 0x00135e5b
+800001fc:	0040006f          	j	80000200 <.LBB0_4>
+
+80000200 <.LBB0_4>:
+80000200:	02088357          	vadd.vv	v6,v0,v17
+80000204:	9664e3d7          	vmul.vx	v7,v6,s1
+80000208:	a703e357          	vmadd.vx	v6,t2,v16
+8000020c:	02104457          	vadd.vx	v8,v1,zero
+80000210:	0200006f          	j	80000230 <.LBB0_6>
+
+80000214 <.LBB0_5>:
+80000214:	0000205b          	.insn	4, 0x205b
+80000218:	0200000b          	.insn	4, 0x0200000b
+8000021c:	5e054357          	vmv.v.x	v6,a0
+
+80000220 <.Lpcrel_hi2>:
+80000220:	00000317          	auipc	t1,0x0
+80000224:	fac3305b          	.insn	4, 0xfac3305b
+80000228:	fc0342db          	.insn	4, 0xfc0342db
+8000022c:	fa1ff06f          	j	800001cc <.LBB0_2>
+
+80000230 <.LBB0_6>:
+80000230:	800032b7          	lui	t0,0x80003
+80000234:	0082a283          	lw	t0,8(t0) # 80003008 <__SDATA_BEGIN__>
+80000238:	028804d7          	vadd.vv	v9,v8,v16
+8000023c:	5e02c557          	vmv.v.x	v10,t0
+80000240:	00705e63          	blez	t2,8000025c <.LBB0_8>
+80000244:	0040006f          	j	80000248 <.LBB0_7>
+
+80000248 <.LBB0_7>:
+80000248:	800032b7          	lui	t0,0x80003
+8000024c:	0082a283          	lw	t0,8(t0) # 80003008 <__SDATA_BEGIN__>
+80000250:	5e02c557          	vmv.v.x	v10,t0
+80000254:	5e0045d7          	vmv.v.x	v11,zero
+80000258:	0300006f          	j	80000288 <.LBB0_9>
+
+8000025c <.LBB0_8>:
+8000025c:	0000205b          	.insn	4, 0x205b
+80000260:	029384d7          	vadd.vv	v9,v9,v7
+80000264:	969134d7          	vsll.vi	v9,v9,2
+80000268:	0295c4d7          	vadd.vx	v9,v9,a1
+8000026c:	0204040b          	.insn	4, 0x0204040b
+80000270:	5e04c5d7          	vmv.v.x	v11,s1
+80000274:	00a4e07b          	.insn	4, 0x00a4e07b
+
+80000278 <.Lpcrel_hi3>:
+80000278:	00000317          	auipc	t1,0x0
+8000027c:	f9c3305b          	.insn	4, 0xf9c3305b
+80000280:	fa85c8db          	.insn	4, 0xfa85c8db
+80000284:	f91ff06f          	j	80000214 <.LBB0_5>
+
+80000288 <.LBB0_9>:
+80000288:	02658657          	vadd.vv	v12,v6,v11
+8000028c:	96c13657          	vsll.vi	v12,v12,2
+80000290:	02c6c657          	vadd.vx	v12,v12,a3
+80000294:	0006267b          	.insn	4, 0x0006267b
+80000298:	00c1607b          	.insn	4, 0x00c1607b
+8000029c:	02b88657          	vadd.vv	v12,v11,v17
+800002a0:	a694e657          	vmadd.vx	v12,s1,v9
+800002a4:	96c13657          	vsll.vi	v12,v12,2
+800002a8:	02c64657          	vadd.vx	v12,v12,a2
+800002ac:	0006267b          	.insn	4, 0x0006267b
+800002b0:	00c1e07b          	.insn	4, 0x00c1e07b
+800002b4:	0400c00b          	.insn	4, 0x0400c00b
+800002b8:	5e004657          	vmv.v.x	v12,zero
+800002bc:	024046d7          	vadd.vx	v13,v4,zero
+800002c0:	0240006f          	j	800002e4 <.LBB0_11>
+
+800002c4 <.LBB0_10>:
+800002c4:	0000205b          	.insn	4, 0x205b
+800002c8:	0105858b          	.insn	4, 0x0105858b
+800002cc:	5e03c657          	vmv.v.x	v12,t2
+800002d0:	0400c00b          	.insn	4, 0x0400c00b
+
+800002d4 <.Lpcrel_hi4>:
+800002d4:	00000317          	auipc	t1,0x0
+800002d8:	f883305b          	.insn	4, 0xf883305b
+800002dc:	fab646db          	.insn	4, 0xfab646db
+800002e0:	f7dff06f          	j	8000025c <.LBB0_8>
+
+800002e4 <.LBB0_11>:
+800002e4:	02a04757          	vadd.vx	v14,v10,zero
+800002e8:	02560557          	vadd.vv	v10,v5,v12
+800002ec:	0005257b          	.insn	4, 0x0005257b
+800002f0:	0006a7fb          	.insn	4, 0x0006a7fb
+800002f4:	a2e79557          	vfmadd.vv	v10,v15,v14
+800002f8:	02c23657          	vadd.vi	v12,v12,4
+800002fc:	04000293          	li	t0,64
+80000300:	5e02c757          	vmv.v.x	v14,t0
+80000304:	0406868b          	.insn	4, 0x0406868b
+
+80000308 <.Lpcrel_hi5>:
+80000308:	00000317          	auipc	t1,0x0
+8000030c:	fbc3305b          	.insn	4, 0xfbc3305b
+80000310:	fac70adb          	.insn	4, 0xfac70adb
+80000314:	fd1ff06f          	j	800002e4 <.LBB0_11>
+
+80000318 <_Z12get_local_idj>:
+80000318:	00410113          	addi	sp,sp,4
+8000031c:	fe112e23          	sw	ra,-4(sp)
+80000320:	020040d7          	vadd.vx	v1,v0,zero
+80000324:	00200293          	li	t0,2
+80000328:	5e02c057          	vmv.v.x	v0,t0
+
+8000032c <.Lpcrel_hi0>:
+8000032c:	00000317          	auipc	t1,0x0
+80000330:	0543305b          	.insn	4, 0x0543305b
+80000334:	0410045b          	.insn	4, 0x0410045b
+80000338:	0040006f          	j	8000033c <.LBB0_1>
+
+8000033c <.LBB0_1>:
+8000033c:	00100293          	li	t0,1
+80000340:	5e02c057          	vmv.v.x	v0,t0
+
+80000344 <.Lpcrel_hi1>:
+80000344:	00000317          	auipc	t1,0x0
+80000348:	03c3305b          	.insn	4, 0x03c3305b
+8000034c:	0210045b          	.insn	4, 0x0210045b
+80000350:	0040006f          	j	80000354 <.LBB0_2>
+
+80000354 <.LBB0_2>:
+80000354:	5e004157          	vmv.v.x	v2,zero
+80000358:	5e004057          	vmv.v.x	v0,zero
+
+8000035c <.Lpcrel_hi2>:
+8000035c:	00000317          	auipc	t1,0x0
+80000360:	0243305b          	.insn	4, 0x0243305b
+80000364:	00111e5b          	.insn	4, 0x00111e5b
+80000368:	0040006f          	j	8000036c <.LBB0_3>
+
+8000036c <.LBB0_3>:
+8000036c:	0c0000ef          	jal	8000042c <__builtin_riscv_workitem_id_x>
+80000370:	0100006f          	j	80000380 <.LBB0_6>
+
+80000374 <.LBB0_4>:
+80000374:	0e8000ef          	jal	8000045c <__builtin_riscv_workitem_id_y>
+80000378:	0080006f          	j	80000380 <.LBB0_6>
+
+8000037c <.LBB0_5>:
+8000037c:	138000ef          	jal	800004b4 <__builtin_riscv_workitem_id_z>
+
+80000380 <.LBB0_6>:
+80000380:	0000205b          	.insn	4, 0x205b
+80000384:	ffc12083          	lw	ra,-4(sp)
+80000388:	ffc10113          	addi	sp,sp,-4
+8000038c:	00008067          	ret
+
+80000390 <_Z12get_group_idj>:
+80000390:	00410113          	addi	sp,sp,4
+80000394:	fe112e23          	sw	ra,-4(sp)
+80000398:	020040d7          	vadd.vx	v1,v0,zero
+8000039c:	00200293          	li	t0,2
+800003a0:	5e02c057          	vmv.v.x	v0,t0
+
+800003a4 <.Lpcrel_hi0>:
+800003a4:	00000317          	auipc	t1,0x0
+800003a8:	0543305b          	.insn	4, 0x0543305b
+800003ac:	0410045b          	.insn	4, 0x0410045b
+800003b0:	0040006f          	j	800003b4 <.LBB0_1>
+
+800003b4 <.LBB0_1>:
+800003b4:	00100293          	li	t0,1
+800003b8:	5e02c057          	vmv.v.x	v0,t0
+
+800003bc <.Lpcrel_hi1>:
+800003bc:	00000317          	auipc	t1,0x0
+800003c0:	03c3305b          	.insn	4, 0x03c3305b
+800003c4:	0210045b          	.insn	4, 0x0210045b
+800003c8:	0040006f          	j	800003cc <.LBB0_2>
+
+800003cc <.LBB0_2>:
+800003cc:	5e004157          	vmv.v.x	v2,zero
+800003d0:	5e004057          	vmv.v.x	v0,zero
+
+800003d4 <.Lpcrel_hi2>:
+800003d4:	00000317          	auipc	t1,0x0
+800003d8:	0243305b          	.insn	4, 0x0243305b
+800003dc:	00111e5b          	.insn	4, 0x00111e5b
+800003e0:	0040006f          	j	800003e4 <.LBB0_3>
+
+800003e4 <.LBB0_3>:
+800003e4:	024000ef          	jal	80000408 <__builtin_riscv_workgroup_id_x>
+800003e8:	0100006f          	j	800003f8 <.LBB0_6>
+
+800003ec <.LBB0_4>:
+800003ec:	028000ef          	jal	80000414 <__builtin_riscv_workgroup_id_y>
+800003f0:	0080006f          	j	800003f8 <.LBB0_6>
+
+800003f4 <.LBB0_5>:
+800003f4:	02c000ef          	jal	80000420 <__builtin_riscv_workgroup_id_z>
+
+800003f8 <.LBB0_6>:
+800003f8:	0000205b          	.insn	4, 0x205b
+800003fc:	ffc12083          	lw	ra,-4(sp)
+80000400:	ffc10113          	addi	sp,sp,-4
+80000404:	00008067          	ret
+
+80000408 <__builtin_riscv_workgroup_id_x>:
+80000408:	80802573          	csrr	a0,0x808
+8000040c:	5e054057          	vmv.v.x	v0,a0
+80000410:	00008067          	ret
+
+80000414 <__builtin_riscv_workgroup_id_y>:
+80000414:	80902573          	csrr	a0,0x809
+80000418:	5e054057          	vmv.v.x	v0,a0
+8000041c:	00008067          	ret
+
+80000420 <__builtin_riscv_workgroup_id_z>:
+80000420:	80a02573          	csrr	a0,0x80a
+80000424:	5e054057          	vmv.v.x	v0,a0
+80000428:	00008067          	ret
+
+8000042c <__builtin_riscv_workitem_id_x>:
+8000042c:	00410113          	addi	sp,sp,4
+80000430:	fe112e23          	sw	ra,-4(sp)
+80000434:	80302573          	csrr	a0,0x803
+80000438:	00852283          	lw	t0,8(a0)
+8000043c:	80002373          	csrr	t1,0x800
+80000440:	5208a157          	vid.v	v2
+80000444:	02234057          	vadd.vx	v0,v2,t1
+80000448:	01852e03          	lw	t3,24(a0)
+8000044c:	8a0e6057          	vremu.vx	v0,v0,t3
+80000450:	ffc12083          	lw	ra,-4(sp)
+80000454:	ffc10113          	addi	sp,sp,-4
+80000458:	00008067          	ret
+
+8000045c <__builtin_riscv_workitem_id_y>:
+8000045c:	00410113          	addi	sp,sp,4
+80000460:	fe112e23          	sw	ra,-4(sp)
+80000464:	80302573          	csrr	a0,0x803
+80000468:	00852283          	lw	t0,8(a0)
+8000046c:	80002373          	csrr	t1,0x800
+80000470:	5208a157          	vid.v	v2
+80000474:	02234057          	vadd.vx	v0,v2,t1
+80000478:	01852e03          	lw	t3,24(a0)
+8000047c:	01c52e83          	lw	t4,28(a0)
+80000480:	03ce8f33          	mul	t5,t4,t3
+80000484:	8a0f6057          	vremu.vx	v0,v0,t5
+80000488:	820e6057          	vdivu.vx	v0,v0,t3
+8000048c:	5e0ec0d7          	vmv.v.x	v1,t4
+
+80000490 <.hi2>:
+80000490:	00000317          	auipc	t1,0x0
+80000494:	0143305b          	.insn	4, 0x0143305b
+80000498:	0000c65b          	.insn	4, 0xc65b
+8000049c:	fff00f13          	li	t5,-1
+800004a0:	021f4057          	vadd.vx	v0,v1,t5
+
+800004a4 <.end2>:
+800004a4:	0000205b          	.insn	4, 0x205b
+800004a8:	ffc12083          	lw	ra,-4(sp)
+800004ac:	ffc10113          	addi	sp,sp,-4
+800004b0:	00008067          	ret
+
+800004b4 <__builtin_riscv_workitem_id_z>:
+800004b4:	00410113          	addi	sp,sp,4
+800004b8:	fe112e23          	sw	ra,-4(sp)
+800004bc:	80302573          	csrr	a0,0x803
+800004c0:	80002373          	csrr	t1,0x800
+800004c4:	5208a157          	vid.v	v2
+800004c8:	02234057          	vadd.vx	v0,v2,t1
+800004cc:	01852e03          	lw	t3,24(a0)
+800004d0:	01c52e83          	lw	t4,28(a0)
+800004d4:	02052f03          	lw	t5,32(a0)
+800004d8:	03ce8eb3          	mul	t4,t4,t3
+800004dc:	820ee057          	vdivu.vx	v0,v0,t4
+800004e0:	5e0f40d7          	vmv.v.x	v1,t5
+
+800004e4 <.hi3>:
+800004e4:	00000317          	auipc	t1,0x0
+800004e8:	0143305b          	.insn	4, 0x0143305b
+800004ec:	0000c65b          	.insn	4, 0xc65b
+800004f0:	fff00f13          	li	t5,-1
+800004f4:	021f4057          	vadd.vx	v0,v1,t5
+
+800004f8 <.end3>:
+800004f8:	0000205b          	.insn	4, 0x205b
+800004fc:	ffc12083          	lw	ra,-4(sp)
+80000500:	ffc10113          	addi	sp,sp,-4
+80000504:	00008067          	ret
+
+Disassembly of section .tohost:
+
+80001000 <tohost>:
+	...
+
+80001040 <fromhost>:
+	...
+
+Disassembly of section .eh_frame:
+
+80002000 <__eh_frame_start>:
+80002000:	0010                	.insn	2, 0x0010
+80002002:	0000                	.insn	2, 0x0000
+80002004:	0000                	.insn	2, 0x0000
+80002006:	0000                	.insn	2, 0x0000
+80002008:	7a01                	.insn	2, 0x7a01
+8000200a:	0052                	.insn	2, 0x0052
+8000200c:	7c01                	.insn	2, 0x7c01
+8000200e:	0101                	.insn	2, 0x0101
+80002010:	00040c1b          	.insn	4, 0x00040c1b
+80002014:	0000                	.insn	2, 0x0000
+	...
+
+Disassembly of section .data:
+
+80003000 <BUFFER_ADDR>:
+80003000:	0000                	.insn	2, 0x0000
+	...
+
+80003004 <BUFFER_SIZE>:
+80003004:	0000                	.insn	2, 0x0000
+	...
+
+Disassembly of section .sdata:
+
+80003008 <__SDATA_BEGIN__>:
+80003008:	0000                	.insn	2, 0x0000
+	...
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	4c00                	.insn	2, 0x4c00
+   2:	6e69                	.insn	2, 0x6e69
+   4:	3a72656b          	.insn	4, 0x3a72656b
+   8:	4c20                	.insn	2, 0x4c20
+   a:	444c                	.insn	2, 0x444c
+   c:	3120                	.insn	2, 0x3120
+   e:	2e36                	.insn	2, 0x2e36
+  10:	2e30                	.insn	2, 0x2e30
+  12:	0030                	.insn	2, 0x0030
+  14:	6e616c63          	bltu	sp,t1,70c <__eh_frame_hdr_end+0x70c>
+  18:	65762067          	.insn	4, 0x65762067
+  1c:	7372                	.insn	2, 0x7372
+  1e:	6f69                	.insn	2, 0x6f69
+  20:	206e                	.insn	2, 0x206e
+  22:	3631                	.insn	2, 0x3631
+  24:	302e                	.insn	2, 0x302e
+  26:	302e                	.insn	2, 0x302e
+  28:	2820                	.insn	2, 0x2820
+  2a:	7468                	.insn	2, 0x7468
+  2c:	7074                	.insn	2, 0x7074
+  2e:	2f2f3a73          	csrrc	s4,0x2f2,t5
+  32:	68746967          	.insn	4, 0x68746967
+  36:	6275                	.insn	2, 0x6275
+  38:	632e                	.insn	2, 0x632e
+  3a:	542f6d6f          	jal	s10,f657c <__eh_frame_hdr_end+0xf657c>
+  3e:	5548                	.insn	2, 0x5548
+  40:	442d                	.insn	2, 0x442d
+  42:	4c2d5053          	.insn	4, 0x4c2d5053
+  46:	4241                	.insn	2, 0x4241
+  48:	766c6c2f          	.insn	4, 0x766c6c2f
+  4c:	2d6d                	.insn	2, 0x2d6d
+  4e:	7270                	.insn	2, 0x7270
+  50:	63656a6f          	jal	s4,56686 <__eh_frame_hdr_end+0x56686>
+  54:	2e74                	.insn	2, 0x2e74
+  56:	20746967          	.insn	4, 0x20746967
+  5a:	3464                	.insn	2, 0x3464
+  5c:	3266                	.insn	2, 0x3266
+  5e:	3630                	.insn	2, 0x3630
+  60:	38656633          	.insn	4, 0x38656633
+  64:	6331                	.insn	2, 0x6331
+  66:	6262                	.insn	2, 0x6262
+  68:	6665                	.insn	2, 0x6665
+  6a:	6164                	.insn	2, 0x6164
+  6c:	61643433          	.insn	4, 0x61643433
+  70:	3036                	.insn	2, 0x3036
+  72:	3464                	.insn	2, 0x3464
+  74:	63356463          	bltu	a0,s3,69c <__eh_frame_hdr_end+0x69c>
+  78:	3634                	.insn	2, 0x3634
+  7a:	6362                	.insn	2, 0x6362
+  7c:	3365                	.insn	2, 0x3365
+  7e:	3264                	.insn	2, 0x3264
+  80:	00293133          	sltu	sp,s2,sp
+
+Disassembly of section .ventus.resource.sgemm_one_wg:
+
+00000000 <.ventus.resource.sgemm_one_wg>:
+   0:	0012                	.insn	2, 0x0012
+   2:	000c                	.insn	2, 0x000c
+   4:	001c                	.insn	2, 0x001c
+   6:	000c                	.insn	2, 0x000c
+
+Disassembly of section .riscv.attributes:
+
+00000000 <.riscv.attributes>:
+   0:	5e41                	.insn	2, 0x5e41
+   2:	0000                	.insn	2, 0x0000
+   4:	7200                	.insn	2, 0x7200
+   6:	7369                	.insn	2, 0x7369
+   8:	01007663          	bgeu	zero,a6,14 <__eh_frame_hdr_end+0x14>
+   c:	0054                	.insn	2, 0x0054
+   e:	0000                	.insn	2, 0x0000
+  10:	1004                	.insn	2, 0x1004
+  12:	7205                	.insn	2, 0x7205
+  14:	3376                	.insn	2, 0x3376
+  16:	6932                	.insn	2, 0x6932
+  18:	7032                	.insn	2, 0x7032
+  1a:	5f30                	.insn	2, 0x5f30
+  1c:	326d                	.insn	2, 0x326d
+  1e:	3070                	.insn	2, 0x3070
+  20:	615f 7032 5f30      	.insn	6, 0x5f307032615f
+  26:	667a                	.insn	2, 0x667a
+  28:	6e69                	.insn	2, 0x6e69
+  2a:	3178                	.insn	2, 0x3178
+  2c:	3070                	.insn	2, 0x3070
+  2e:	7a5f 6964 786e      	.insn	6, 0x786e69647a5f
+  34:	7031                	.insn	2, 0x7031
+  36:	5f30                	.insn	2, 0x5f30
+  38:	767a                	.insn	2, 0x767a
+  3a:	3365                	.insn	2, 0x3365
+  3c:	6632                	.insn	2, 0x6632
+  3e:	7031                	.insn	2, 0x7031
+  40:	5f30                	.insn	2, 0x5f30
+  42:	767a                	.insn	2, 0x767a
+  44:	3365                	.insn	2, 0x3365
+  46:	7832                	.insn	2, 0x7832
+  48:	7031                	.insn	2, 0x7031
+  4a:	5f30                	.insn	2, 0x5f30
+  4c:	767a                	.insn	2, 0x767a
+  4e:	336c                	.insn	2, 0x336c
+  50:	6232                	.insn	2, 0x6232
+  52:	7031                	.insn	2, 0x7031
+  54:	5f30                	.insn	2, 0x5f30
+  56:	687a                	.insn	2, 0x687a
+  58:	6e69                	.insn	2, 0x6e69
+  5a:	3178                	.insn	2, 0x3178
+  5c:	3070                	.insn	2, 0x3070
+	...
